@@ -42,14 +42,16 @@ document.addEventListener('DOMContentLoaded', () => {
     /* 2. Top Announcement Marquee (Flashing Text) */
     const announcementText = document.getElementById('announcement-text');
     const messagesEn = [
+        "More than a class. A journey of growth for both child and family.",
         "A place where children are transformed, and family values are strengthened.",
         "Building character. Strengthening families.",
         "A place where children grow in character, and families grow together."
     ];
     const messagesZh = [
-        "在这里孩子重塑自我，家庭价值观更加坚定。",
-        "培养品格，凝聚家庭。",
-        "一个孩子与家庭共同汲取力量、并肩成长的地方。"
+        "在這裡，改變的不只是孩子，還有整個家庭的方向。",
+        "一個真正改變孩子，也凝聚家庭價值的地方。",
+        "以品格為根基，成就孩子一生的改變。",
+        "讓孩子的改變，從家庭開始。"
     ];
     let messageIndex = 0;
 

@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Dexuan Children’s Development Programme - A character-based enrichment programme for children aged 7-12 focusing on positive values and family growth.">
+    <title>Dexuan Children's Development Programme</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Top Announcement Bar (Flashing/Rotating Sentences) -->
+    <div class="top-announcement">
+        <div class="announcement-content" id="announcement-text" data-translate="hero_tagline">
+            🌟 More than a class. A journey of growth for both child and family.
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon"><i class="fa-solid fa-leaf"></i></span>
+                <span class="logo-text">Dexuan<br><small>Development Programme</small></span>
+            </a>
+            <div class="nav-links">
+                <a href="#home" data-translate="nav_home">Home</a>
+                <a href="#about" data-translate="nav_about">About</a>
+                <a href="#why-choose-us" data-translate="nav_why_us">Why Us</a>
+                <a href="#programme" data-translate="nav_programme">Programme</a>
+                <a href="#contact" class="btn btn-primary btn-sm" data-translate="nav_enrol">Enrol Now</a>
+                <button id="langToggleBtn" class="lang-btn">中文</button>
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-bg">
+            <img src="assets/hero_background_1773276919040.png" alt="Children engaging in learning activity">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container hero-content reveal fade-bottom">
+            <div class="tagline" data-translate="hero_tagline">🌟 More than a class. A journey of growth for both child
+                and family.</div>
+            <h1 class="hero-title"><span data-translate="hero_title_1">We Believe Growth</span> <br><span
+                    data-translate="hero_title_span">Begins at Home</span></h1>
+            <p class="hero-desc" data-translate="hero_desc">
+                Dexuan Children’s Development Programme is a character-based enrichment programme designed for children
+                aged 7–12. Through interactive activities, storytelling, and practical life applications, we nurture
+                self-discipline, confidence, and positive values.
+            </p>
+            <p class="hero-highlight" data-translate="hero_highlight">
+                Here, children are not just learning — they are growing.
+            </p>
+            <div class="hero-buttons">
+                <a href="#about" class="btn btn-primary" data-translate="btn_learn_more">Learn More</a>
+                <a href="#contact" class="btn btn-outline-light" data-translate="btn_enrol_now">Enrol Now</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Core Pillars -->
+    <section id="pillars" class="pillars-section container section-padding">
+        <div class="section-header reveal fade-bottom">
+            <h2 class="section-title" data-translate="pillars_title">Growing Through Character</h2>
+            <p class="section-subtitle" data-translate="pillars_subtitle">Building Confidence Through Discipline,
+                Finding Direction Through Guidance.</p>
+        </div>
+        <div class="pillars-grid">
+            <div class="pillar-card reveal fade-left">
+                <div class="pillar-icon"><i class="fa-solid fa-seedling"></i></div>
+                <h3 data-translate="pillar_1_title">Character Development</h3>
+                <p data-translate="pillar_1_desc">Cultivating integrity, responsibility, respect, and gratitude.</p>
+            </div>
+            <div class="pillar-card reveal fade-bottom">
+                <div class="pillar-icon"><i class="fa-solid fa-heart"></i></div>
+                <h3 data-translate="pillar_2_title">Life Skills & Emotional Growth</h3>
+                <p data-translate="pillar_2_desc">Helping children build self-discipline, communication skills, and
+                    emotional stability.</p>
+            </div>
+            <div class="pillar-card reveal fade-right">
+                <div class="pillar-icon"><i class="fa-solid fa-language"></i></div>
+                <h3 data-translate="pillar_3_title">Immersive Chinese Environment</h3>
+                <p data-translate="pillar_3_desc">Encouraging confidence in listening and speaking Mandarin through
+                    natural interaction and experiential activities.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Deep Dive Info Split Section -->
+    <section id="immersive" class="split-section">
+        <div class="split-content reveal fade-right">
+            <div class="split-text">
+                <span class="badge" data-translate="badge_language">🌏 Language & Culture</span>
+                <h2 class="section-title" data-translate="immersive_title">Immersive Chinese Learning Environment</h2>
+                <p data-translate="immersive_p1">Our programme is conducted fully in Mandarin, providing a natural and
+                    engaging Chinese-speaking environment.</p>
+                <p data-translate="immersive_p2">We are <strong>not</strong> a language tuition centre. Instead, through
+                    character education and practical life experiences, children use, understand, and express Mandarin
+                    in meaningful real-life contexts.</p>
+                <p data-translate="immersive_p3">For children growing up in an English-dominant education system, this
+                    provides a supportive and steady platform to strengthen Chinese communication skills.</p>
+            </div>
+        </div>
+        <div class="split-image reveal fade-left">
+            <img src="assets/classroom_interaction_1773276946478.png" alt="Child engaging in practical craft">
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section id="why-choose-us" class="why-us-section section-padding bg-light">
+        <div class="container container-narrow">
+            <div class="section-header reveal fade-bottom text-center">
+                <h2 class="section-title" data-translate="why_us_title">⭐ Why Choose Us?</h2>
+                <p class="section-subtitle" data-translate="why_us_subtitle">Character is a lifelong asset.</p>
+            </div>
+            <div class="why-us-content reveal fade-bottom">
+                <p class="lead-text text-center" data-translate="why_us_lead">In today’s fast-paced world, children face
+                    not only academic pressure, but also challenges in emotional regulation, interpersonal
+                    relationships, and self-management. We believe that what accompanies a child for life is not grades
+                    — <strong>but character.</strong></p>
+
+                <div class="features-list">
+                    <div class="feature-item">
+                        <i class="fa-solid fa-check-circle"></i>
+                        <span data-translate="feature_1">Personal responsibility & self-discipline</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fa-solid fa-check-circle"></i>
+                        <span data-translate="feature_2">Character and value formation</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fa-solid fa-check-circle"></i>
+                        <span data-translate="feature_3">Emotional management & positive thinking</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fa-solid fa-check-circle"></i>
+                        <span data-translate="feature_4">Communication skills & social interaction</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fa-solid fa-check-circle"></i>
+                        <span data-translate="feature_5">Cultural values & family virtues</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fa-solid fa-check-circle"></i>
+                        <span data-translate="feature_6">Immersive Chinese-speaking environment</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learning Approach -->
+    <section id="approach" class="approach-section section-padding">
+        <div class="container">
+            <div class="section-header reveal fade-bottom">
+                <h2 class="section-title" data-translate="approach_title">🌟 Our Learning Approach</h2>
+                <p class="section-subtitle" data-translate="approach_subtitle">Not instruction — but experience.</p>
+            </div>
+            <div class="approach-grid">
+                <div class="approach-text reveal fade-right">
+                    <p data-translate="approach_p">We adopt an experiential learning approach rather than one-way
+                        teaching. Children learn through participation and grow through practice — building confidence
+                        and developing responsibility.</p>
+                    <ul class="approach-list">
+                        <li><i class="fa-solid fa-book-open"></i> <span data-translate="approach_list_1">Story-based
+                                learning and guided reflection</span></li>
+                        <li><i class="fa-solid fa-users"></i> <span data-translate="approach_list_2">Interactive
+                                activities and team challenges</span></li>
+                        <li><i class="fa-solid fa-hands-holding-child"></i> <span
+                                data-translate="approach_list_3">Practical life applications</span></li>
+                        <li><i class="fa-solid fa-house-chimney"></i> <span data-translate="approach_list_4">Home
+                                extension tasks and parent engagement</span></li>
+                    </ul>
+                </div>
+                <!-- Glassmorphism card -->
+                <div class="approach-card reveal fade-left">
+                    <div class="glass-card">
+                        <i class="fa-solid fa-quote-left quote-icon"></i>
+                        <h3 data-translate="glass_quote">A place where children grow in character, and families grow
+                            together.</h3>
+                        <p data-translate="glass_p">Our commitment is to support children during their formative years,
+                            helping them build a strong foundation of character in a safe, structured, and
+                            purpose-driven learning environment.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials / Parents Reflections -->
+    <section id="testimonials" class="testimonials-section section-padding"
+        style="background-image: linear-gradient(rgba(44, 85, 48, 0.9), rgba(44, 85, 48, 0.9)), url('assets/family_bond_1773276974994.png'); background-size: cover; background-position: center; background-attachment: fixed;">
+        <div class="container">
+            <div class="section-header reveal fade-bottom text-white">
+                <h2 class="section-title" data-translate="testimonials_title">💬 Parents’ Reflections</h2>
+                <p class="section-subtitle text-white-50" data-translate="testimonials_subtitle">Real stories from our
+                    community.</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card reveal fade-bottom">
+                    <div class="t-content" data-translate="t_1_content">
+                        "I was especially impressed by the DIY activity, where children interacted with their parents
+                        and learned gratitude in a practical way."
+                    </div>
+                    <div class="t-author" data-translate="t_1_author">- Parent A</div>
+                </div>
+                <div class="testimonial-card reveal fade-bottom delay-1">
+                    <div class="t-content" data-translate="t_2_content">
+                        "I noticed my child becoming more confident, better at communication, and more focused."
+                    </div>
+                    <div class="t-author" data-translate="t_2_author">- Parent B</div>
+                </div>
+                <div class="testimonial-card reveal fade-bottom delay-2">
+                    <div class="t-content" data-translate="t_3_content">
+                        "The second session on 'Di Zi Gui' was excellent. The teacher's practical life examples made the
+                        values meaningful and applicable."
+                    </div>
+                    <div class="t-author" data-translate="t_3_author">- Parent C</div>
+                </div>
+                <div class="testimonial-card reveal fade-bottom delay-3">
+                    <div class="t-content" data-translate="t_4_content">
+                        "This is not just play — it is meaningful and purposeful guidance."
+                    </div>
+                    <div class="t-author" data-translate="t_4_author">- Parent D</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programme Details -->
+    <section id="programme" class="programme-section section-padding bg-light">
+        <div class="container">
+            <div class="section-header reveal fade-bottom text-center">
+                <h2 class="section-title" data-translate="prog_title">🌱 2026 Annual Programme Overview</h2>
+                <p class="section-subtitle" data-translate="prog_subtitle">True education is not merely the acquisition
+                    of knowledge, but the cultivation of lifelong character and life skills.</p>
+            </div>
+
+            <div class="info-banner reveal fade-bottom">
+                <div class="info-item">
+                    <i class="fa-regular fa-calendar-check"></i>
+                    <div>
+                        <strong data-translate="info_date_strong">Starts 8 March 2026</strong>
+                        <span data-translate="info_date_span">First Sunday of every month</span>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fa-regular fa-clock"></i>
+                    <div>
+                        <strong data-translate="info_time_strong">2:30 PM – 4:30 PM</strong>
+                        <span data-translate="info_time_span">(Exact dates to be announced)</span>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fa-solid fa-children"></i>
+                    <div>
+                        <strong data-translate="info_age_strong">Suitable Ages</strong>
+                        <span data-translate="info_age_span">Children aged 7–12</span>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <i class="fa-solid fa-people-roof"></i>
+                    <div>
+                        <strong data-translate="info_fam_strong">Family Active</strong>
+                        <span data-translate="info_fam_span">Parental involvement encouraged</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="themes-container reveal fade-bottom">
+                <h3 class="text-center mb-4" data-translate="themes_title">🌟 2026 Course Themes (9 Sessions)</h3>
+                <div class="themes-grid">
+                    <div class="theme-card">
+                        <div class="theme-num">1</div>
+                        <h4 data-translate="theme_1_title">Personal Responsibility & Self-Discipline</h4>
+                        <p data-translate="theme_1_desc">Building daily habits & time management.</p>
+                    </div>
+                    <div class="theme-card">
+                        <div class="theme-num">2</div>
+                        <h4 data-translate="theme_2_title">Character Development</h4>
+                        <p data-translate="theme_2_desc">Integrity, respect, responsibility, honesty.</p>
+                    </div>
+                    <div class="theme-card">
+                        <div class="theme-num">3</div>
+                        <h4 data-translate="theme_3_title">Emotional Management & Gratitude</h4>
+                        <p data-translate="theme_3_desc">Understanding emotions & expressing appreciation.</p>
+                    </div>
+                    <div class="theme-card">
+                        <div class="theme-num">4</div>
+                        <h4 data-translate="theme_4_title">Communication & Confidence</h4>
+                        <p data-translate="theme_4_desc">Learning to speak with confidence & courtesy.</p>
+                    </div>
+                    <div class="theme-card">
+                        <div class="theme-num">5</div>
+                        <h4 data-translate="theme_5_title">Teamwork & Social Skills</h4>
+                        <p data-translate="theme_5_desc">Cooperation, sharing, & mutual respect.</p>
+                    </div>
+                    <div class="theme-card">
+                        <div class="theme-num">6</div>
+                        <h4 data-translate="theme_6_title">Filial Piety & Family Values</h4>
+                        <p data-translate="theme_6_desc">Expressing care & gratitude towards parents.</p>
+                    </div>
+                    <div class="theme-card">
+                        <div class="theme-num">7</div>
+                        <h4 data-translate="theme_7_title">Cultural Values & Etiquette</h4>
+                        <p data-translate="theme_7_desc">Applying respect & courtesy in daily life.</p>
+                    </div>
+                    <div class="theme-card">
+                        <div class="theme-num">8</div>
+                        <h4 data-translate="theme_8_title">Environmental Awareness</h4>
+                        <p data-translate="theme_8_desc">Responsibility towards the community & environment.</p>
+                    </div>
+                    <div class="theme-card">
+                        <div class="theme-num">9</div>
+                        <h4 data-translate="theme_9_title">Compassion & Life Education</h4>
+                        <p data-translate="theme_9_desc">Developing empathy & positive action.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="features-wrapper reveal fade-bottom text-center mt-5">
+                <h3 data-translate="features_title">Programme Features</h3>
+                <div class="pill-tags">
+                    <span class="pill" data-translate="pill_1">✨ Small-group interactive learning</span>
+                    <span class="pill" data-translate="pill_2">✨ Game-based and experiential approach</span>
+                    <span class="pill" data-translate="pill_3">✨ Confidence and communication building</span>
+                    <span class="pill" data-translate="pill_4">✨ Positive habit formation</span>
+                    <span class="pill" data-translate="pill_5">✨ Parent engagement and transparency</span>
+                </div>
+                <div class="cta-buttons mt-4">
+                    <a href="#contact" class="btn btn-primary" data-translate="btn_enrol_now">Enrol Now</a>
+                    <a href="#about" class="btn btn-outline" data-translate="btn_view_about">View About Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about-section section-padding">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-nav reveal fade-right">
+                    <h2 class="section-title" data-translate="about_section_title">About Us</h2>
+                    <ul class="about-menu">
+                        <li class="active" data-target="about-beginning" data-translate="nav_beginning">Our Beginning
+                        </li>
+                        <li data-target="about-believe" data-translate="nav_believe">What We Believe</li>
+                        <li data-target="about-philosophy" data-translate="nav_philosophy">Our Core Philosophy</li>
+                        <li data-target="about-vision" data-translate="nav_vision">Our Vision</li>
+                        <li data-target="about-team" data-translate="nav_team">Our Team</li>
+                        <li data-target="about-commitment" data-translate="nav_commitment">Our Commitment</li>
+                    </ul>
+                </div>
+                <div class="about-content reveal fade-left">
+                    <div id="about-beginning" class="about-pane active">
+                        <h3 data-translate="about_beginning_title">Our Beginning</h3>
+                        <p data-translate="about_beginning_p1">Dexuan Children’s Development Programme was founded with
+                            the intention of providing children with a stable, warm, and purposeful environment for
+                            growth.</p>
+                        <p data-translate="about_beginning_p2">In a rapidly changing society, children face challenges
+                            in self-discipline, emotional regulation, interpersonal relationships, and value formation.
+                            Through structured curriculum design, we aim to support children in building a strong
+                            foundation of character and life skills.</p>
+                    </div>
+                    <div id="about-believe" class="about-pane">
+                        <h3 data-translate="about_believe_title">What We Believe</h3>
+                        <p class="highlight-quote" data-translate="about_believe_quote">During a child’s formative
+                            years, character matters more than grades. Values matter more than achievements.</p>
+                        <p data-translate="about_believe_p1">Our programme centres on moral development and character
+                            formation, using practical life applications and experiential learning to guide children in
+                            developing sound judgment and responsibility.</p>
+                        <p data-translate="about_believe_p2">We believe that stable values and strong character form the
+                            foundation for navigating the future with confidence.</p>
+                    </div>
+                    <div id="about-philosophy" class="about-pane">
+                        <h3 data-translate="about_philosophy_title">Our Core Philosophy</h3>
+                        <p data-translate="about_philosophy_p">Built upon three foundations:</p>
+                        <ul class="styled-list mt-3">
+                            <li><strong data-translate="phil_li_1">Character Development</strong></li>
+                            <li><strong data-translate="phil_li_2">Life Skills & Emotional Growth</strong></li>
+                            <li><strong data-translate="phil_li_3">Immersive Chinese Language Environment</strong></li>
+                        </ul>
+                    </div>
+                    <div id="about-vision" class="about-pane">
+                        <h3 data-translate="about_vision_title">Our Vision</h3>
+                        <p data-translate="about_vision_p1">We aspire to create a safe, structured, and purposeful
+                            learning environment where children gain confidence and families find shared values.</p>
+                        <p data-translate="about_vision_p2">Dexuan Children’s Development Programme aims to be a
+                            community rooted in family values — a place where meaningful transformation unfolds
+                            gradually and deeply.</p>
+                    </div>
+                    <div id="about-team" class="about-pane">
+                        <h3 data-translate="about_team_title">Our Team</h3>
+                        <p data-translate="about_team_p1">The programme is organised and facilitated by a team of
+                            professionals and volunteers who are passionate about children’s development and character
+                            education.</p>
+                        <p data-translate="about_team_p2">With years of experience in family education and value-based
+                            development, our team collaborates in curriculum planning, facilitation, and programme
+                            review to ensure continuous improvement.</p>
+                    </div>
+                    <div id="about-commitment" class="about-pane">
+                        <h3 data-translate="about_commitment_title">Our Commitment</h3>
+                        <p data-translate="about_commitment_p">We are committed to:</p>
+                        <ul class="styled-list mt-3">
+                            <li><i class="fa-solid fa-check text-primary"></i> <span data-translate="com_li_1">A safe
+                                    and orderly learning environment</span></li>
+                            <li><i class="fa-solid fa-check text-primary"></i> <span data-translate="com_li_2">Clear
+                                    programme structure and direction</span></li>
+                            <li><i class="fa-solid fa-check text-primary"></i> <span data-translate="com_li_3">Respect
+                                    for each child’s individuality</span></li>
+                            <li><i class="fa-solid fa-check text-primary"></i> <span
+                                    data-translate="com_li_4">Transparent communication with parents</span></li>
+                            <li><i class="fa-solid fa-check text-primary"></i> <span data-translate="com_li_5">Ongoing
+                                    reflection and enhancement</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Footer Context (Placeholder form logic) -->
+    <section id="contact" class="contact-section section-padding">
+        <div class="container container-narrow">
+            <div class="glass-form-container reveal fade-bottom">
+                <div class="text-center mb-4">
+                    <h2 class="section-title" data-translate="contact_title">Join Our Community</h2>
+                    <p data-translate="contact_p">Contact us to enrol or to request the full programme brochure.</p>
+                </div>
+                <form class="contact-form"
+                    onsubmit="event.preventDefault(); alert('Thank you for your interest! This is a demo. In a real website, this would submit your inquiry.');">
+                    <div class="form-group">
+                        <label for="name" data-translate="label_name">Parent's Name</label>
+                        <input type="text" id="name" required class="form-control" placeholder="Your Name"
+                            data-placeholder-translate="ph_name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" data-translate="label_email">Email Address</label>
+                        <input type="email" id="email" required class="form-control" placeholder="your@email.com"
+                            data-placeholder-translate="ph_email">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone" data-translate="label_phone">Phone Number</label>
+                        <input type="tel" id="phone" class="form-control" placeholder="Your Contact Number"
+                            data-placeholder-translate="ph_phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="message" data-translate="label_message">Message / Inquiry</label>
+                        <textarea id="message" rows="4" class="form-control" placeholder="How can we help you?"
+                            data-placeholder-translate="ph_message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block" data-translate="btn_submit">Submit
+                        Inquiry</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container text-center">
+            <h3 class="footer-logo"><i class="fa-solid fa-leaf"></i> Dexuan Children’s Development Programme</h3>
+            <p data-translate="footer_p">A children’s programme centred on character development, helping young learners
+                build self-discipline, confidence, and strong values through meaningful activities and real-life
+                practice.</p>
+            <p class="copyright" data-translate="footer_copy">&copy; 2026 Dexuan Development Programme. All rights
+                reserved.</p>
+        </div>
+    </footer>
+
+    <script src="translations.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

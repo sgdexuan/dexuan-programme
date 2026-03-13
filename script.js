@@ -36,37 +36,34 @@ document.addEventListener('DOMContentLoaded', () => {
         langToggleBtn.addEventListener('click', () => {
             currentLang = currentLang === 'en' ? 'zh' : 'en';
             updateLanguage();
+            updateAnnouncement();
         });
     }
 
-    /* 2. Top Announcement Marquee (Flashing Text) */
+    /* 2. Top Announcement Marquee (Continuous) */
     const announcementText = document.getElementById('announcement-text');
     const messagesEn = [
-        "More than a class. A journey of growth for both child and family.",
-        "A place where children are transformed, and family values are strengthened.",
-        "Building character. Strengthening families.",
-        "A place where children grow in character, and families grow together."
+        "🌟 More than a class. A journey of growth for both child and family.",
+        "🌟 A place where children are transformed, and family values are strengthened.",
+        "🌟 Building character. Strengthening families.",
+        "🌟 A place where children grow in character, and families grow together."
     ];
     const messagesZh = [
-        "在這裡，改變的不只是孩子，還有整個家庭的方向。",
-        "一個真正改變孩子，也凝聚家庭價值的地方。",
-        "以品格為根基，成就孩子一生的改變。",
-        "讓孩子的改變，從家庭開始。"
+        "🌟 在這裡，改變的不只是孩子，還有整個家庭的方向。",
+        "🌟 一個真正改變孩子，也凝聚家庭價值的地方。",
+        "🌟 以品格為根基，成就孩子一生的改變。",
+        "🌟 讓孩子的改變，從家庭開始。"
     ];
-    let messageIndex = 0;
 
-    // Change text every 4 seconds (matching CSS animation)
-    setInterval(() => {
-        const msgs = currentLang === 'en' ? messagesEn : messagesZh;
-        messageIndex = (messageIndex + 1) % msgs.length;
-
-        // Update custom announcement messages manually
+    function updateAnnouncement() {
         if (announcementText) {
-            // Just set text content, but don't overwrite translate tags if we are on index 0
-            // since index 0 is mapped in translations object. We just manually insert texts here.
-            announcementText.textContent = msgs[messageIndex];
+            const msgs = currentLang === 'en' ? messagesEn : messagesZh;
+            announcementText.innerHTML = msgs.join(" &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; ");
         }
-    }, 4000);
+    }
+
+    // Initialize content
+    updateAnnouncement();
 
     /* 3. Sticky Navbar */
     const navbar = document.getElementById('navbar');

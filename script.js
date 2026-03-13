@@ -65,8 +65,11 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initialize content
     updateAnnouncement();
 
-    /* 3. Sticky Navbar */
+    /* 3. Sticky Navbar & Mobile Menu Scroll */
     const navbar = document.getElementById('navbar');
+    const mobileBtn = document.querySelector('.mobile-menu-btn');
+    const navLinks = document.querySelector('.nav-links');
+
     window.addEventListener('scroll', () => {
         if (window.scrollY > 50) {
             navbar.classList.add('scrolled');
@@ -75,12 +78,14 @@ document.addEventListener('DOMContentLoaded', () => {
             navbar.classList.remove('scrolled');
             navbar.style.boxShadow = '0 2px 10px rgba(0,0,0,0.05)';
         }
+
+        // Auto-close the mobile menu when scrolling
+        if (navLinks && navLinks.classList.contains('active')) {
+            navLinks.classList.remove('active');
+        }
     });
 
     /* 4. Mobile Menu Toggle */
-    const mobileBtn = document.querySelector('.mobile-menu-btn');
-    const navLinks = document.querySelector('.nav-links');
-
     if (mobileBtn) {
         mobileBtn.addEventListener('click', () => {
             navLinks.classList.toggle('active');

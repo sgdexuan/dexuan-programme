@@ -13,6 +13,7 @@ const translations = {
         "nav_why_us": "Why Us",
         "nav_programme": "Programme",
         "nav_enrol": "Enrol Now",
+        "nav_register": "Register",
 
         // Hero Section
         "hero_tagline": "🌟 More than a class. A journey of growth for both child and family.",
@@ -22,6 +23,7 @@ const translations = {
         "hero_highlight": "Here, children are not just learning — they are growing.",
         "btn_learn_more": "Learn More",
         "btn_enrol_now": "Enrol Now",
+        "btn_register": "Register",
 
         // Pillars Section
         "pillars_title": "Growing Through Character",
@@ -177,6 +179,7 @@ const translations = {
         "nav_why_us": "为什么选择我们",
         "nav_programme": "课程项目",
         "nav_enrol": "立即报名",
+        "nav_register": "注册",
 
         // Hero Section
         "hero_tagline": "🌟 在這裡，改變的不只是孩子，還有整個家庭的方向。",
@@ -186,6 +189,7 @@ const translations = {
         "hero_highlight": "在这里，孩子们不只是学习——他们正在茁壮成长。",
         "btn_learn_more": "了解更多",
         "btn_enrol_now": "立即报名",
+        "btn_register": "注册",
 
         // Pillars Section
         "pillars_title": "品格引领成长",

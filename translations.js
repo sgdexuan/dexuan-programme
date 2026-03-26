@@ -20,7 +20,7 @@ const translations = {
         "hero_tagline": "🌟 More than a class. A journey of growth for both child and family.",
         "hero_title_1": "We Believe Growth",
         "hero_title_span": "Begins at Home",
-        "hero_desc": "Dexuan Children’s Development Programme is a character-based enrichment programme designed for children aged 7–12. Through interactive activities, storytelling, and practical life applications, we nurture self-discipline, confidence, and positive values.",
+        "hero_desc": "Dexuan Children's Development Programme is a character-based enrichment programme designed for children aged 7-12. Through interactive activities, storytelling, and practical life applications, we nurture self-discipline, confidence, and positive values.",
         "hero_highlight": "Here, children are not just learning — they are growing.",
         "btn_learn_more": "Learn More",
         "btn_enrol_now": "Contact Us",
@@ -125,11 +125,11 @@ const translations = {
         "nav_commitment": "Our Commitment",
 
         "about_beginning_title": "Our Beginning",
-        "about_beginning_p1": "Dexuan Children’s Development Programme was founded with the intention of providing children with a stable, warm, and purposeful environment for growth.",
+        "about_beginning_p1": "Dexuan Children's Development Programme was founded with the intention of providing children with a stable, warm, and purposeful environment for growth.",
         "about_beginning_p2": "In a rapidly changing society, children face challenges in self-discipline, emotional regulation, interpersonal relationships, and value formation. Through structured curriculum design, we aim to support children in building a strong foundation of character and life skills.",
 
         "about_believe_title": "What We Believe",
-        "about_believe_quote": "During a child’s formative years, character matters more than grades. Values matter more than achievements.",
+        "about_believe_quote": "During a child's formative years, character matters more than grades. Values matter more than achievements.",
         "about_believe_p1": "Our programme centres on moral development and character formation, using practical life applications and experiential learning to guide children in developing sound judgment and responsibility.",
         "about_believe_p2": "We believe that stable values and strong character form the foundation for navigating the future with confidence.",
 
@@ -141,7 +141,7 @@ const translations = {
 
         "about_vision_title": "Our Vision",
         "about_vision_p1": "We aspire to create a safe, structured, and purposeful learning environment where children gain confidence and families find shared values.",
-        "about_vision_p2": "Dexuan Children’s Development Programme aims to be a community rooted in family values — a place where meaningful transformation unfolds gradually and deeply.",
+        "about_vision_p2": "Dexuan Children's Development Programme aims to be a community rooted in family values — a place where meaningful transformation unfolds gradually and deeply.",
 
         "about_team_title": "Our Team",
         "about_team_p1": "The programme is organised and facilitated by a team of professionals and volunteers who are passionate about children’s development and character education.",
@@ -169,8 +169,8 @@ const translations = {
         "btn_submit": "Submit Inquiry",
 
         // Footer
-        "footer_p": "A children’s programme centred on character development, helping young learners build self-discipline, confidence, and strong values through meaningful activities and real-life practice.",
-        "footer_copy": "© 2026 Dexuan Development Programme. All rights reserved.",
+        "footer_p": "A children's programme centred on character development, helping young learners build self-discipline, confidence, and strong values through meaningful activities and real-life practice.",
+        "footer_copy": "© 2026 Dexuan Children's Development Programme. All rights reserved.",
 
         // Gallery Page
         "gallery_tagline": "📸 Moments of learning, growth, and family connection.",
@@ -178,10 +178,10 @@ const translations = {
         "gallery_subtitle": "A glimpse into our sessions and activities.",
         "gallery_btn_view": "View Gallery",
         "gallery_section_title": "Our Gallery",
-        "gallery_section_subtitle": "Add 5–8 images here to showcase your programme.",
+        "gallery_section_subtitle": "Add 5-8 images here to showcase your programme.",
 
         // Home - Gallery Preview
-        "home_gallery_title": "📸 Gallery – Dexuan Programme",
+        "home_gallery_title": "📸 Gallery - Dexuan Programme",
         "home_gallery_subtitle": "Highlights from our sessions, activities, and family moments.",
         "home_gallery_btn": "View Gallery",
 
@@ -238,8 +238,8 @@ const translations = {
 
         // Hero Section
         "hero_tagline": "🌟 在這裡，改變的不只是孩子，還有整個家庭的方向。",
-        "hero_title_1": "成长",
-        "hero_title_span": "从家开始",
+        "hero_title_1": "我们相信",
+        "hero_title_span": "孩子的成长,从家庭开始",
         "hero_desc": "德暄儿童培育班专为7至12岁儿童设计，是一项以品格教育为核心的课程。通过互动游戏、故事启发和生活实践，我们致力于培养孩子的自律能力、自信心以及正确的价值观。",
         "hero_highlight": "在这里，孩子们不只是学习——他们正在茁壮成长。",
         "btn_learn_more": "了解更多",

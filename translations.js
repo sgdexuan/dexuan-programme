@@ -14,21 +14,21 @@ const translations = {
         "nav_why_us": "Why Choose Us",
         "nav_programme": "Programme",
         "nav_enrol": "Contact Us",
-        "nav_register": "Register",
+        "nav_register": "Enrol Now",
 
         // Hero Section
         "hero_tagline": "🌟 More than a class. A journey of growth for both child and family.",
         "hero_title_1": "We Believe Growth",
         "hero_title_span": "Begins at Home",
-        "hero_desc": "Dexuan Children's Development Programme is a character-based enrichment programme designed for children aged 7-12. Through interactive activities, storytelling, and practical life applications, we nurture self-discipline, confidence, and positive values.",
+        "hero_desc": "Dexuan Children’s Development Programme is more than just a class. It is <strong>a platform that supports families in growing together.</strong> We believe that what truly shapes a child’s future is not temporary skills, but stable character and strong values.<br><br>It is a character-based enrichment programme designed for children aged 7–12. Through interactive activities, storytelling, and practical life applications, we nurture self-discipline, confidence, and positive values.",
         "hero_highlight": "Here, children are not just learning — they are growing.",
         "btn_learn_more": "Learn More",
         "btn_enrol_now": "Contact Us",
-        "btn_register": "Register",
+        "btn_register": "Enrol Now",
 
         // Pillars Section
         "pillars_title": "Growing Through Character",
-        "pillars_subtitle": "Building Confidence Through Discipline, Finding Direction Through Guidance.",
+        "pillars_subtitle": "Building Confidence Through Discipline, <br>Finding Direction Through Guidance.<br><br><strong>💞 Our Three Core Pillars</strong>",
         "pillar_1_title": "Character Development",
         "pillar_1_desc": "Cultivating integrity, responsibility, respect, and gratitude.",
         "pillar_2_title": "Life Skills & Emotional Growth",
@@ -39,14 +39,14 @@ const translations = {
         // Immersive Section
         "badge_language": "🌏 Language & Culture",
         "immersive_title": "Immersive Chinese Learning Environment",
-        "immersive_p1": "Our programme is conducted fully in Mandarin, providing a natural and engaging Chinese-speaking environment.",
-        "immersive_p2": "We are <strong>not</strong> a language tuition centre. Instead, through character education and practical life experiences, children use, understand, and express Mandarin in meaningful real-life contexts.",
+        "immersive_p1": "Our programme is conducted fully in Mandarin, providing <strong>a natural and engaging Chinese-speaking environment.</strong>",
+        "immersive_p2": "We are not a language tuition centre. Instead, through character education and practical life experiences, children use, understand, and express Mandarin in meaningful real-life contexts.",
         "immersive_p3": "For children growing up in an English-dominant education system, this provides a supportive and steady platform to strengthen Chinese communication skills.",
 
         // Why Us Section
         "why_us_title": "⭐ Why Choose Us?",
         "why_us_subtitle": "Character is a lifelong asset.",
-        "why_us_lead": "In today’s fast-paced world, children face not only academic pressure, but also challenges in emotional regulation, interpersonal relationships, and self-management. We believe that what accompanies a child for life is not grades — <strong>but character.</strong>",
+        "why_us_lead": "In today’s fast-paced world, children face not only academic pressure, but also challenges in emotional regulation, interpersonal relationships, and self-management. <br>We believe that what accompanies a child for life is not grades — <strong>but character.<br><br>Dexuan Children’s Development Programme focuses on:</strong>",
         "feature_1": "Personal responsibility & self-discipline",
         "feature_2": "Character and value formation",
         "feature_3": "Emotional management & positive thinking",
@@ -57,7 +57,7 @@ const translations = {
         // Approach Section
         "approach_title": "🌟 Our Learning Approach",
         "approach_subtitle": "Not instruction — but experience.",
-        "approach_p": "We adopt an experiential learning approach rather than one-way teaching. Children learn through participation and grow through practice — building confidence and developing responsibility.",
+        "approach_p": "We adopt an experiential learning approach rather than one-way teaching. <strong>Children learn through participation and grow through practice — building confidence and developing responsibility.</strong>",
         "approach_list_1": "Story-based learning and guided reflection",
         "approach_list_2": "Interactive activities and team challenges",
         "approach_list_3": "Practical life applications",
@@ -79,7 +79,7 @@ const translations = {
 
         // Programme Details
         "prog_title": "🌱 2026 Annual Programme Overview",
-        "prog_subtitle": "True education is not merely the acquisition of knowledge, but the cultivation of lifelong character and life skills.",
+        "prog_subtitle": "True education is not merely the acquisition of knowledge, but the cultivation of lifelong character and life skills.<br><br>Through interactive activities, storytelling, and practical experiences, we nurture confidence, discipline, and positive values — allowing learning to take place joyfully and meaningfully.",
         "info_date_strong": "Starts 5 April 2026",
         "info_date_span": "First Sunday of every month",
         "info_time_strong": "2:00 PM – 4:30 PM",
@@ -129,9 +129,9 @@ const translations = {
         "about_beginning_p2": "In a rapidly changing society, children face challenges in self-discipline, emotional regulation, interpersonal relationships, and value formation. Through structured curriculum design, we aim to support children in building a strong foundation of character and life skills.",
 
         "about_believe_title": "What We Believe",
-        "about_believe_quote": "During a child's formative years, character matters more than grades. Values matter more than achievements.",
+        "about_believe_quote": "During a child's formative years, <br>character matters more than grades. <br>Values matter more than achievements.",
         "about_believe_p1": "Our programme centres on moral development and character formation, using practical life applications and experiential learning to guide children in developing sound judgment and responsibility.",
-        "about_believe_p2": "We believe that stable values and strong character form the foundation for navigating the future with confidence.",
+        "about_believe_p2": "<strong>We believe that stable values and strong character form the foundation for navigating the future with confidence.</strong>",
 
         "about_philosophy_title": "Our Core Philosophy",
         "about_philosophy_p": "Built upon three foundations:",
@@ -140,8 +140,8 @@ const translations = {
         "phil_li_3": "Immersive Chinese Language Environment",
 
         "about_vision_title": "Our Vision",
-        "about_vision_p1": "We aspire to create a safe, structured, and purposeful learning environment where children gain confidence and families find shared values.",
-        "about_vision_p2": "Dexuan Children's Development Programme aims to be a community rooted in family values — a place where meaningful transformation unfolds gradually and deeply.",
+        "about_vision_p1": "We aspire to create a safe, structured, and purposeful learning environment <strong>where children gain confidence and families find shared values.</strong>",
+        "about_vision_p2": "Dexuan Children's Development Programme <strong>aims to be a community rooted in family values</strong> — a place where meaningful transformation unfolds gradually and deeply.",
 
         "about_team_title": "Our Team",
         "about_team_p1": "The programme is organised and facilitated by a team of professionals and volunteers who are passionate about children’s development and character education.",
@@ -234,21 +234,21 @@ const translations = {
         "nav_why_us": "为什么选择我们",
         "nav_programme": "课程项目",
         "nav_enrol": "联系我们",
-        "nav_register": "注册",
+        "nav_register": "立即报名",
 
         // Hero Section
         "hero_tagline": "🌟 在這裡，改變的不只是孩子，還有整個家庭的方向。",
         "hero_title_1": "我们相信",
         "hero_title_span": "孩子的成长,从家庭开始",
-        "hero_desc": "德暄儿童培育班专为7至12岁儿童设计，是一项以品格教育为核心的课程。通过互动游戏、故事启发和生活实践，我们致力于培养孩子的自律能力、自信心以及正确的价值观。",
+        "hero_desc": "德暄儿童培育班不只是儿童课程，而是<strong>一个陪伴家庭共同成长的平台。</strong>我们深信，真正能影响孩子一生的，不是短暂的技巧，而是稳定的品格与价值观。<br><br>这是一个以品格教育为核心的儿童成长课程。我们透过互动体验、故事引导与生活实践，陪伴 7–12 岁孩子建立自律、自信与良好的价值观。",
         "hero_highlight": "在这里，孩子们不只是学习——他们正在茁壮成长。",
-        "btn_learn_more": "了解更多",
+        "btn_learn_more": "了解课程",
         "btn_enrol_now": "联系我们",
-        "btn_register": "注册",
+        "btn_register": "立即报名",
 
         // Pillars Section
-        "pillars_title": "品格引领成长",
-        "pillars_subtitle": "用纪律建立自信，用引导指明方向。",
+        "pillars_title": "让孩子，在品格中成长",
+        "pillars_subtitle": "在自律中建立自信，在陪伴中找到方向。<br><br><strong>💞 课程的三大核心价值</strong>",
         "pillar_1_title": "品格教育为本",
         "pillar_1_desc": "培养诚实、责任、尊重与感恩的价值观。",
         "pillar_2_title": "生活能力与情绪管理",
@@ -260,13 +260,13 @@ const translations = {
         "badge_language": "🌏 语言与文化",
         "immersive_title": "全中文学习环境",
         "immersive_p1": "德暄儿童培育班采用<strong>全中文教学与互动环境</strong>，让孩子在自然交流与活动参与中提升中文表达能力。",
-        "immersive_p2": "我们<strong>不是</strong>语文补习班，而是透过品格教育与生活实践，让孩子在真实情境中使用中文、理解中文、表达中文。",
+        "immersive_p2": "我们不是语文补习班，而是透过品格教育与生活实践，让孩子在真实情境中使用中文、理解中文、表达中文。",
         "immersive_p3": "对于在英语教育体系中成长的孩子而言，这是一个温和而稳定的华语语境平台。",
 
         // Why Us Section
         "why_us_title": "⭐ 为什么选择我们？",
         "why_us_subtitle": "品格，是孩子一生最重要的资产。",
-        "why_us_lead": "在节奏快速的时代，孩子面对的不只是学业压力，还有情绪管理、人际互动与自我管理的挑战。我们相信，真正能陪伴孩子一生的不是分数——<strong>而是品格。</strong>",
+        "why_us_lead": "在节奏快速的时代，孩子面对的不只是学业压力，还有情绪管理、人际互动与自我管理的挑战。<br>我们相信，真正能陪伴孩子一生的不是分数——<strong>而是品格。<br><br>德暄儿童培育班专注于：</strong>",
         "feature_1": "生活自理与自律建立",
         "feature_2": "品格与责任感培养",
         "feature_3": "情绪管理与正向思维",
@@ -277,13 +277,13 @@ const translations = {
         // Approach Section
         "approach_title": "🌟 我们的教学方式",
         "approach_subtitle": "不是说教，而是体验。",
-        "approach_p": "我们不采用单向说教，而是透过「体验式学习」让孩子自然吸收。让孩子在参与中学习，在实践中成长。建立自信，培养责任感。",
+        "approach_p": "我们不采用单向说教，而是透过「体验式学习」让孩子自然吸收。<strong>让孩子在参与中学习，在实践中成长。建立自信，培养责任感。</strong>",
         "approach_list_1": "故事启发与情境引导",
         "approach_list_2": "互动活动与团队任务",
         "approach_list_3": "生活实践挑战",
         "approach_list_4": "课后延伸与家长回馈",
         "glass_quote": "讓孩子的改變，從家庭開始。",
-        "glass_p": "我们相信，真正的教育，不只是学习知识，更重要的是培养孩子一生受用的品格与生活能力。<br/>德暄儿童培育班透过互动活动、故事引导与生活实践，陪伴孩子建立自信、自律与良好品格，让学习在快乐中发生，在生活中落实。",
+        "glass_p": "我们致力于提供一个安全、稳定与有方向的学习环境，陪伴孩子在成长的关键时期，建立稳固的品格基础。",
 
         // Testimonials
         "testimonials_title": "💬 家长真实反馈",
@@ -299,7 +299,7 @@ const translations = {
 
         // Programme Details
         "prog_title": "🌱 2026 年课程资讯",
-        "prog_subtitle": "我们致力于提供一个安全、稳定与有方向的学习环境，陪伴孩子在成长的关键时期，建立稳固的品格基础。",
+        "prog_subtitle": "我们相信，真正的教育，不只是学习知识，更重要的是培养孩子一生受用的品格与生活能力。<br><br>德暄儿童培育班透过互动活动、故事引导与生活实践，陪伴孩子建立自信、自律与良好品格，让学习在快乐中发生，在生活中落实。",
         "info_date_strong": "2026年4月5日 开课",
         "info_date_span": "每月第一个星期日",
         "info_time_strong": "下午 2:00 – 4:30",
@@ -310,23 +310,23 @@ const translations = {
         "info_fam_span": "需家长陪同参与",
         "themes_title": "🌟 2026 课程主题一览（全年9堂）",
         "theme_1_title": "生活自理与自律建立",
-        "theme_1_desc": "培养孩子基本生活能力与自我管理。</br>学会负责任、守时与完成任务。</br><strong>(自己的事情自己做，建立良好生活习惯，做事有条理、有责任感)</strong>",
+        "theme_1_desc": "培养孩子基本生活能力与自我管理。<br>学会负责任、守时与完成任务。<br><strong>(自己的事情自己做，建立良好生活习惯，做事有条理、有责任感)</strong>",
         "theme_2_title": "品格教育：做一个有品格的人",
-        "theme_2_desc": "从小建立正确价值观。</br>诚实、尊重、责任、守信。</br><strong>(做对的事，尊重他人，勇于承担与改正)</strong>",
+        "theme_2_desc": "从小建立正确价值观。<br>诚实、尊重、责任、守信。<br><strong>(做对的事，尊重他人，勇于承担与改正)</strong>",
         "theme_3_title": "情绪管理与感恩教育",
-        "theme_3_desc": "认识自己的情绪。</br>学会表达与调整心情。</br><strong>(做对的事，尊重他人，勇于承担与改正)</strong>",
+        "theme_3_desc": "认识自己的情绪。<br>学会表达与调整心情。<br><strong>(做对的事，尊重他人，勇于承担与改正)</strong>",
         "theme_4_title": "沟通表达与自信建立",
-        "theme_4_desc": "让孩子敢说、会说、说得有礼。</br><strong>(礼貌表达需求，公众表达小练习，建立自信心)",
+        "theme_4_desc": "让孩子敢说、会说、说得有礼。<br><strong>(礼貌表达需求，公众表达小练习，建立自信心)",
         "theme_5_title": "人际互动与团队合作",
-        "theme_5_desc": "学习与人相处与合作。</br><strong>(分享与轮流，尊重规则，团队合作精神)",
+        "theme_5_desc": "学习与人相处与合作。<br><strong>(分享与轮流，尊重规则，团队合作精神)",
         "theme_6_title": "孝亲与家庭美德",
-        "theme_6_desc": "从生活中学习关心父母。</br>培养体贴与感恩心。</br><strong>(理解父母辛劳，用行动表达关心，做贴心的孩子)</strong>",
+        "theme_6_desc": "从生活中学习关心父母。<br>培养体贴与感恩心。<br><strong>(理解父母辛劳，用行动表达关心，做贴心的孩子)</strong>",
         "theme_7_title": "传统文化与生活礼仪",
-        "theme_7_desc": "把礼貌与文化落实在生活中。</br><strong>(基本生活礼仪，尊重长辈与他人，做有教养的孩子)",
+        "theme_7_desc": "把礼貌与文化落实在生活中。<br><strong>(基本生活礼仪，尊重长辈与他人，做有教养的孩子)",
         "theme_8_title": "环保与爱护地球",
-        "theme_8_desc": "培养责任感与环境意识。</br><strong>(珍惜资源，爱护环境，从小事开始守护地球)</strong>",
+        "theme_8_desc": "培养责任感与环境意识。<br><strong>(珍惜资源，爱护环境，从小事开始守护地球)</strong>",
         "theme_9_title": "生命教育与慈悲心行动",
-        "theme_9_desc": "培养同理心与善念。</br>让孩子学会关心世界</br><strong>(尊重生命，帮助他人，建立善良与正向心态)</strong>",
+        "theme_9_desc": "培养同理心与善念。<br>让孩子学会关心世界<br><strong>(尊重生命，帮助他人，建立善良与正向心态)</strong>",
         "features_title": "课程特色",
         "pill_1": "✨ 小班制互动教学",
         "pill_2": "✨ 游戏＋故事＋体验式学习",
@@ -337,30 +337,30 @@ const translations = {
 
         // About Us
         "about_section_title": "关于我们",
-        "nav_beginning": "我们的起点",
+        "nav_beginning": "我们的初心",
         "nav_believe": "我们相信",
-        "nav_philosophy": "核心理念",
+        "nav_philosophy": "我们的核心理念",
         "nav_vision": "我们的愿景",
         "nav_team": "我们的团队",
         "nav_commitment": "我们的承诺",
 
-        "about_beginning_title": "我们的起点",
+        "about_beginning_title": "我们的初心",
         "about_beginning_p1": "德暄儿童培育班成立的初心，是希望为孩子提供一个稳定、温暖且有方向的成长平台。",
         "about_beginning_p2": "在快速变化的社会环境中，我们看见孩子面临自律、人际互动、情绪管理与价值观建立的挑战。因此，我们希望透过有系统的课程设计，陪伴孩子建立稳固的品格基础与生活能力。",
 
         "about_believe_title": "我们相信",
-        "about_believe_quote": "在孩子成长的关键阶段，比成绩更重要的，是品格。比才艺更长远的，是价值观。",
+        "about_believe_quote": "在孩子成长的关键阶段，<br>比成绩更重要的，是品格。<br>比才艺更长远的，是价值观。",
         "about_believe_p1": "德暄儿童培育班以道德教育与品格培养为核心，透过生活实践与互动体验，帮助孩子建立正确的是非观与责任感。",
-        "about_believe_p2": "我们相信，稳定的价值观与良好的品格，是孩子未来面对世界的重要基础。",
+        "about_believe_p2": "<strong>我们相信，稳定的价值观与良好的品格，是孩子未来面对世界的重要基础。</strong>",
 
         "about_philosophy_title": "核心理念",
         "about_philosophy_p": "我们以三大核心为基础：",
-        "phil_li_1": "🔹 品格教育</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;培养诚信、责任、尊重与感恩。",
-        "phil_li_2": "🔹 生活能力与情绪管理</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;帮助孩子建立自律、自信与稳定情绪。",
-        "phil_li_3": "🔹 全中文沉浸式学习环境</br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在自然交流与互动中提升中文表达与文化理解。",
+        "phil_li_1": "🔹 品格教育<br>培养诚信、责任、尊重与感恩。",
+        "phil_li_2": "🔹 生活能力与情绪管理<br>帮助孩子建立自律、自信与稳定情绪。",
+        "phil_li_3": "🔹 全中文沉浸式学习环境<br>在自然交流与互动中提升中文表达与文化理解。",
 
         "about_vision_title": "我们的愿景",
-        "about_vision_p1": "我们希望打造一个安全、有秩序且有方向的学习环境，让孩子在其中找到自信，让家长在其中找到共鸣。",
+        "about_vision_p1": "我们希望打造一个安全、有秩序且有方向的学习环境，<strong>让孩子在其中找到自信，让家长在其中找到共鸣。</strong>",
         "about_vision_p2": "德暄儿童培育班<strong>致力于成为一个家庭价值共同体</strong>，在彼此支持与陪伴中，见证孩子一点一滴的改变。",
 
         "about_team_title": "我们的团队",
@@ -389,8 +389,8 @@ const translations = {
         "btn_submit": "提交查询",
 
         // Footer
-        "footer_p": "一个以品格发展为核心的儿童项目，通过有意义的活动和现实生活实践，帮助年轻学习者建立自律、自信和强烈的价值观。",
-        "footer_copy": "© 2026 德烜儿童潜能开发课程。版权所有。",
+        "footer_p": "以品格教育为核心，透过互动体验与生活实践，培养自律、自信与良好价值观的儿童成长课程。",
+        "footer_copy": "© 2026 德暄儿童培育班。版权所有。",
 
         // Gallery Page
         "gallery_tagline": "📸 记录学习、成长与家庭连结的精彩时刻。",

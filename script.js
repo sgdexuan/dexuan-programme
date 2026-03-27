@@ -8,7 +8,8 @@
 document.addEventListener('DOMContentLoaded', () => {
 
     /* 1. Translation System */
-    let currentLang = 'zh';
+    // Restore saved language preference, default to 'en' (English)
+    let currentLang = localStorage.getItem('dexuanLang') || 'en';
     const langToggleBtn = document.getElementById('langToggleBtn');
 
     function updateLanguage() {
@@ -35,6 +36,8 @@ document.addEventListener('DOMContentLoaded', () => {
     if (langToggleBtn) {
         langToggleBtn.addEventListener('click', () => {
             currentLang = currentLang === 'en' ? 'zh' : 'en';
+            // Save language preference so it persists across pages
+            localStorage.setItem('dexuanLang', currentLang);
             updateLanguage();
             updateAnnouncement();
         });
@@ -190,7 +193,7 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
         lightboxClose.addEventListener('click', closeLightbox);
-        
+
         // Close if clicking outside the image
         lightbox.addEventListener('click', (e) => {
             if (e.target !== lightboxImg) {

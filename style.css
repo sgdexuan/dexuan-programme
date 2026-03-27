@@ -1191,7 +1191,7 @@ footer p {
     .preview-grid {
         grid-template-columns: repeat(2, 1fr);
     }
-    
+
     .gallery-grid {
         column-count: 2;
     }
@@ -1297,7 +1297,7 @@ footer p {
     .preview-grid {
         grid-template-columns: 1fr;
     }
-    
+
     .gallery-grid {
         column-count: 1;
     }

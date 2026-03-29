@@ -201,5 +201,27 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }
+
+    /* 9. WhatsApp Floating Widget Logic */
+    const waFloatingBtn = document.getElementById('waFloatingBtn');
+    const waPopup = document.getElementById('waPopup');
+    const waCloseBtn = document.getElementById('waCloseBtn');
+
+    if (waFloatingBtn && waPopup && waCloseBtn) {
+        waFloatingBtn.addEventListener('click', () => {
+            waPopup.classList.toggle('show');
+        });
+
+        waCloseBtn.addEventListener('click', () => {
+            waPopup.classList.remove('show');
+        });
+
+        // Close when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!waPopup.contains(e.target) && !waFloatingBtn.contains(e.target)) {
+                waPopup.classList.remove('show');
+            }
+        });
+    }
 });
 

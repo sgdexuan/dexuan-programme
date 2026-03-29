@@ -1183,6 +1183,210 @@ footer p {
     }
 }
 
+/* Floating WhatsApp Widget */
+.wa-floating-widget {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 9999;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Outfit";
+}
+
+.wa-floating-btn {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #38d669;
+    color: white;
+    border: none;
+    box-shadow: 0 4px 15px rgba(56, 214, 105, 0.4);
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    animation: waPulse 2s infinite;
+}
+
+.wa-floating-btn i {
+    animation: waWiggle 3s infinite ease-in-out;
+}
+
+.wa-floating-btn:hover {
+    transform: scale(1.1);
+    background-color: #2ebc5b;
+    animation: none;
+    box-shadow: 0 6px 20px rgba(56, 214, 105, 0.6);
+}
+
+.wa-floating-btn:hover i {
+    animation: none;
+}
+
+@keyframes waPulse {
+  0% { box-shadow: 0 0 0 0 rgba(56, 214, 105, 0.7); }
+  70% { box-shadow: 0 0 0 20px rgba(56, 214, 105, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(56, 214, 105, 0); }
+}
+
+@keyframes waWiggle {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(15deg); }
+  20% { transform: rotate(-10deg); }
+  30% { transform: rotate(15deg); }
+  40% { transform: rotate(-10deg); }
+  50% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.wa-popup {
+    position: absolute;
+    bottom: 80px;
+    right: 0;
+    width: 330px;
+    background: #f4f6f8;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    overflow: hidden;
+    display: none;
+    transform-origin: bottom right;
+    animation: waPopIn 0.3s ease;
+}
+
+.wa-popup.show {
+    display: block;
+}
+
+@keyframes waPopIn {
+    from { opacity: 0; transform: scale(0.8); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+.wa-popup-header {
+    background-color: #38d669;
+    color: white;
+    padding: 25px 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    position: relative;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.wa-main-icon {
+    font-size: 2.2rem;
+    margin-top: 2px;
+}
+
+.wa-header-texts {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-right: 15px; /* space for close btn */
+}
+
+.wa-header-texts h4 {
+    margin: 0;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: white;
+}
+
+.wa-header-texts p {
+    margin: 0;
+    font-size: 0.85rem;
+    line-height: 1.3;
+    color: rgba(255, 255, 255, 0.95);
+}
+
+.wa-close-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.wa-close-btn:hover {
+    color: #e0e0e0;
+}
+
+.wa-popup-body {
+    padding: 20px;
+    background-color: #f7f9fa;
+}
+
+.wa-reply-time {
+    text-align: center;
+    color: #888;
+    font-size: 0.85rem;
+    margin-bottom: 20px;
+}
+
+.wa-agent {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    text-decoration: none;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.wa-agent:last-child {
+    margin-bottom: 0;
+}
+
+.wa-agent:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.wa-agent-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #eceff1;
+    color: #4b3d68;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+.wa-agent-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    flex-grow: 1;
+}
+
+.wa-agent-info strong {
+    font-size: 0.95rem;
+    color: #333;
+    font-weight: 700;
+}
+
+.wa-agent-info span {
+    font-size: 0.75rem;
+    color: #888;
+    font-weight: normal;
+}
+
+.wa-agent-icon {
+    font-size: 1.3rem;
+    color: #38d669;
+}
+
 /* Responsive Breakpoints */
 @media (max-width: 992px) {
 

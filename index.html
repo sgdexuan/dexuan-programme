@@ -499,34 +499,71 @@
                     <h2 class="section-title" data-translate="contact_title">Join Our Community</h2>
                     <p data-translate="contact_p">Contact us to enrol or to request the full programme brochure.</p>
                 </div>
-                <form class="contact-form"
-                    onsubmit="event.preventDefault(); alert('Thank you for your interest! This is a demo. In a real website, this would submit your inquiry.');">
+                <form class="contact-form" action="https://formspree.io/f/xdapkrlj" method="POST">
                     <div class="form-group">
                         <label for="name" data-translate="label_name">Parent's Name</label>
-                        <input type="text" id="name" required class="form-control" placeholder="Your Name"
+                        <input type="text" id="name" name="name" required class="form-control" placeholder="Your Name"
                             data-placeholder-translate="ph_name">
                     </div>
                     <div class="form-group">
                         <label for="email" data-translate="label_email">Email Address</label>
-                        <input type="email" id="email" required class="form-control" placeholder="your@email.com"
-                            data-placeholder-translate="ph_email">
+                        <input type="email" id="email" name="email" required class="form-control"
+                            placeholder="your@email.com" data-placeholder-translate="ph_email">
                     </div>
                     <div class="form-group">
                         <label for="phone" data-translate="label_phone">Phone Number</label>
-                        <input type="tel" id="phone" class="form-control" placeholder="Your Contact Number"
-                            data-placeholder-translate="ph_phone">
+                        <input type="tel" id="phone" name="phone" class="form-control"
+                            placeholder="Your Contact Number" data-placeholder-translate="ph_phone">
                     </div>
                     <div class="form-group">
                         <label for="message" data-translate="label_message">Message / Inquiry</label>
-                        <textarea id="message" rows="4" class="form-control" placeholder="How can we help you?"
-                            data-placeholder-translate="ph_message"></textarea>
+                        <textarea id="message" name="message" rows="4" class="form-control"
+                            placeholder="How can we help you?" data-placeholder-translate="ph_message"></textarea>
                     </div>
+                    <input type="hidden" name="_subject" value="New Contact Form Submission">
+                    <input type="hidden" name="_redirect" value="https://yourwebsite.com/thank-you.html">
                     <button type="submit" class="btn btn-primary btn-block" data-translate="btn_submit">Join
                         Now</button>
                 </form>
             </div>
         </div>
     </section>
+
+    <!-- Floating WhatsApp Widget -->
+    <div class="wa-floating-widget">
+        <div class="wa-popup" id="waPopup">
+            <div class="wa-popup-header">
+                <i class="fa-brands fa-whatsapp wa-main-icon"></i>
+                <div class="wa-header-texts">
+                    <h4 data-translate="wa_header_title">Start a Conversation</h4>
+                    <p data-translate="wa_header_desc">Hi! Click one of our members below to chat on WhatsApp ;)</p>
+                </div>
+                <button class="wa-close-btn" id="waCloseBtn"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="wa-popup-body">
+                <p class="wa-reply-time" data-translate="wa_reply_time">The team typically replies in a few minutes.</p>
+                <a href="https://wa.me/6591459120" target="_blank" class="wa-agent">
+                    <div class="wa-agent-avatar"><i class="fa-solid fa-user"></i></div>
+                    <div class="wa-agent-info">
+                        <strong data-translate="wa_person_1">Cecillia Kiong</strong>
+                        <span data-translate="wa_role">Programme Inquiry</span>
+                    </div>
+                    <i class="fa-brands fa-whatsapp wa-agent-icon"></i>
+                </a>
+                <a href="https://wa.me/6590293887" target="_blank" class="wa-agent">
+                    <div class="wa-agent-avatar"><i class="fa-solid fa-user"></i></div>
+                    <div class="wa-agent-info">
+                        <strong data-translate="wa_person_2">Mr. Chin</strong>
+                        <span data-translate="wa_role">Programme Inquiry</span>
+                    </div>
+                    <i class="fa-brands fa-whatsapp wa-agent-icon"></i>
+                </a>
+            </div>
+        </div>
+        <button class="wa-floating-btn" id="waFloatingBtn">
+            <i class="fa-brands fa-whatsapp"></i>
+        </button>
+    </div>
 
     <footer>
         <div class="container text-center">

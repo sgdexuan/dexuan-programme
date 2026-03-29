@@ -206,6 +206,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const waFloatingBtn = document.getElementById('waFloatingBtn');
     const waPopup = document.getElementById('waPopup');
     const waCloseBtn = document.getElementById('waCloseBtn');
+    const waWidget = document.querySelector('.wa-floating-widget');
+    const contactSection = document.getElementById('contact');
 
     if (waFloatingBtn && waPopup && waCloseBtn) {
         waFloatingBtn.addEventListener('click', () => {
@@ -222,6 +224,28 @@ document.addEventListener('DOMContentLoaded', () => {
                 waPopup.classList.remove('show');
             }
         });
+    }
+
+    // Show/hide WhatsApp widget based on scroll position
+    if (waWidget) {
+        // If there's a contact section, show widget when scrolling near it
+        // Otherwise (e.g. gallery page), always show the widget
+        if (contactSection) {
+            window.addEventListener('scroll', () => {
+                const contactTop = contactSection.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+
+                if (contactTop <= windowHeight + 100) {
+                    waWidget.classList.add('wa-visible');
+                } else {
+                    waWidget.classList.remove('wa-visible');
+                    if (waPopup) waPopup.classList.remove('show');
+                }
+            });
+        } else {
+            // No contact section on this page, always show
+            waWidget.classList.add('wa-visible');
+        }
     }
 });
 

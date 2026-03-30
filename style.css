@@ -334,12 +334,18 @@ nav.scrolled {
     color: var(--primary);
     border: 1px solid var(--primary);
     border-radius: 20px;
-    padding: 5px 12px;
+    padding: 8px 14px;
     font-size: 0.9rem;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
     font-family: inherit;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    min-width: 72px;
+    flex-shrink: 0;
 }
 
 .lang-btn:hover {
@@ -1504,18 +1510,25 @@ footer p {
         display: none;
         position: absolute;
         top: 100%;
-        left: 0;
-        width: 100%;
+        left: 50%;
+        width: 100vw;
         background-color: var(--white);
         flex-direction: column;
         padding: 20px;
         gap: 15px;
+        transform: translateX(-50%);
+        box-sizing: border-box;
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
         z-index: 1000;
     }
 
     .nav-links.active {
         display: flex;
+    }
+
+    .nav-links .btn {
+        width: 200px;
+        align-self: center;
     }
 
     .mobile-menu-btn {

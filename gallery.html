@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
         content="Gallery - Dexuan Children’s Development Programme. Moments of learning, growth, and family connection.">
-    <title>Gallery | Dexuan Children's Development Programme</title>
+    <title>Gallery | Dexuan Character Academy</title>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,43 +15,13 @@
         rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/png" href="assets/Dexuan_logo.png">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <div class="header-wrapper">
-        <div class="top-announcement">
-            <div class="announcement-content" id="announcement-text">
-                🌟 More than a class. A journey of growth for both child and family.
-            </div>
-        </div>
-
-        <nav id="navbar">
-            <div class="container nav-container">
-                <a href="index.html#home" class="logo">
-                    <img class="logo-img" src="assets/Dexuan_logo_bg.png" alt="Dexuan Character Academy logo">
-                    <span class="logo-text">Dexuan<br><small>Children's Development Programme</small></span>
-                </a>
-                <div class="nav-links">
-                    <a href="index.html#home" data-translate="nav_home">Home</a>
-                    <a href="index.html#about" data-translate="nav_about">About Us</a>
-                    <a href="gallery.html" data-translate="nav_gallery">Gallery</a>
-                    <a href="index.html#why-choose-us" data-translate="nav_why_us">Why Choose Us</a>
-                    <a href="index.html#programme" data-translate="nav_programme">Programme</a>
-                    <a href="index.html#contact" class="btn btn-outline btn-sm" data-translate="nav_enrol">Contact Us</a>
-                    <a href="https://forms.gle/Ft4GAnRMrwTL34HM6" target="_blank" class="btn btn-primary btn-sm"
-                        data-translate="nav_register">Register</a>
-                </div>
-                <div class="nav-right-controls" style="display: flex; align-items: center; gap: 15px;">
-                    <button id="langToggleBtn" class="lang-btn">中文</button>
-                    <div class="mobile-menu-btn">
-                        <i class="fa-solid fa-bars"></i>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </div>
+<body data-page="gallery">
+    <div id="site-header"></div>
 
     <header class="page-hero page-hero-gallery">
         <div class="container hero-content reveal fade-bottom">
@@ -260,19 +230,7 @@
         <img class="lightbox-content" id="lightbox-img">
     </div>
 
-    <footer>
-        <div class="container text-center">
-            <div class="footer-brand">
-                <img class="footer-logo-img" src="assets/Dexuan_logo_footer.png" alt="Dexuan Character Academy logo">
-                <span class="footer-logo-text">Dexuan<br><small>Development Programme</small></span>
-            </div>
-            <p data-translate="footer_p">A children’s programme centred on character development, helping young learners
-                build self-discipline, confidence, and strong values through meaningful activities and real-life
-                practice.</p>
-            <p class="copyright" data-translate="footer_copy">&copy; 2026 Dexuan Development Programme. All rights
-                reserved.</p>
-        </div>
-    </footer>
+    <div id="site-footer"></div>
 
     <script src="translations.js"></script>
     <script src="script.js"></script>

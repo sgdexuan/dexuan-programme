@@ -177,6 +177,8 @@ const translations = {
         "label_message": "Message / Inquiry",
         "ph_message": "How can we help you?",
         "btn_submit": "Submit Inquiry",
+        "form_submit_success": "Thank you. Your enquiry has been sent successfully.",
+        "form_submit_error": "Sorry, we could not send your enquiry right now. Please try again later.",
 
         // Footer
         "footer_p": "A children's programme centred on character development, helping young learners build self-discipline, confidence, and strong values through meaningful activities and real-life practice.",
@@ -407,6 +409,8 @@ const translations = {
         "label_message": "留言 / 查询",
         "ph_message": "我们能如何帮助您？",
         "btn_submit": "提交查询",
+        "form_submit_success": "谢谢您，您的询问已成功发送。",
+        "form_submit_error": "抱歉，目前无法发送您的询问，请稍后再试。",
 
         // Footer
         "footer_p": "以品格教育为核心，透过互动体验与生活实践，培养自律、自信与良好价值观的儿童成长课程。",

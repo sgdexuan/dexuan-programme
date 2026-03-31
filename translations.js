@@ -7,6 +7,9 @@
 
 const translations = {
     "en": {
+        // Logo
+        "logo_text": "Dexuan<br><small>Character Academy</small>",
+
         // Navigation
         "nav_home": "Home",
         "nav_about": "About Us",
@@ -234,6 +237,9 @@ const translations = {
     },
 
     "zh": {
+        // Logo
+        "logo_text": "德暄<br><small>品格學堂</small>",
+
         // Navigation
         "nav_home": "首页",
         "nav_about": "关于我们",

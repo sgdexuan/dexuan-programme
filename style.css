@@ -430,13 +430,6 @@ nav.scrolled {
     opacity: 0.9;
 }
 
-.hero-highlight {
-    font-size: 1.3rem;
-    font-weight: 600;
-    color: var(--secondary-light);
-    margin-bottom: 30px;
-}
-
 .hero-buttons {
     display: flex;
     gap: 15px;
@@ -609,6 +602,13 @@ nav.scrolled {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+}
+
+.pillars-highlight {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--secondary-light);
+    margin-bottom: 30px;
 }
 
 .pillar-card {

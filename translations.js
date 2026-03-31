@@ -20,15 +20,16 @@ const translations = {
         "hero_tagline": "🌟 More than a class. A journey of growth for both child and family.",
         "hero_title_1": "We Believe Growth",
         "hero_title_span": "Begins at Home",
-        "hero_desc": "Dexuan Children’s Development Programme is more than just a class. It is <strong>a platform that supports families in growing together.</strong> We believe that what truly shapes a child’s future is not temporary skills, but stable character and strong values.<br><br>It is a character-based enrichment programme designed for children aged 7–12. Through interactive activities, storytelling, and practical life applications, we nurture self-discipline, confidence, and positive values.",
-        "hero_highlight": "Here, children are not just learning — they are growing.",
+        "hero_desc": "Dexuan Children’s Development Programme is more than just a class. <br>It is <strong>a platform that supports families in growing together.</strong> <br><br>We believe that what truly shapes a child’s future is not temporary skills, but stable character and strong values.",
         "btn_learn_more": "Learn More",
         "btn_enrol_now": "Contact Us",
         "btn_register": "Enrol Now",
 
         // Pillars Section
         "pillars_title": "Growing Through Character",
-        "pillars_subtitle": "Building Confidence Through Discipline, <br>Finding Direction Through Guidance.<br><br><strong>💞 Our Three Core Pillars</strong>",
+        "pillars_subtitle": "<strong>Building Confidence Through Discipline, <br>Finding Direction Through Guidance.</strong><br><br>Dexuan Children’s Development Programme is a character-based enrichment programme designed for children aged 7–12. <br>Through interactive activities, storytelling, and practical life applications, we nurture self-discipline, confidence, and positive values.<br><br>",
+        "pillars_highlight": "Here, children are not just learning — they are growing.<br><br>",
+        "pillars_title_sub": "💞 Our Three Core Pillars",
         "pillar_1_title": "Character Development",
         "pillar_1_desc": "Cultivating integrity, responsibility, respect, and gratitude.",
         "pillar_2_title": "Life Skills & Emotional Growth",
@@ -176,7 +177,7 @@ const translations = {
 
         // Footer
         "footer_p": "A children's programme centred on character development, helping young learners build self-discipline, confidence, and strong values through meaningful activities and real-life practice.",
-        "footer_copy": "© 2026 Dexuan Children's Development Programme. All rights reserved.",
+        "footer_copy": "© 2026 Dexuan Character Academy. All rights reserved.",
 
         // Gallery Page
         "gallery_tagline": "📸 Moments of learning, growth, and family connection.",
@@ -245,16 +246,17 @@ const translations = {
         // Hero Section
         "hero_tagline": "🌟 在這裡，改變的不只是孩子，還有整個家庭的方向。",
         "hero_title_1": "我们相信",
-        "hero_title_span": "孩子的成长, 从家庭开始",
-        "hero_desc": "德暄儿童培育班不只是儿童课程，而是<strong>一个陪伴家庭共同成长的平台。</strong>我们深信，真正能影响孩子一生的，不是短暂的技巧，而是稳定的品格与价值观。<br><br>这是一个以品格教育为核心的儿童成长课程。我们透过互动体验、故事引导与生活实践，陪伴 7–12 岁孩子建立自律、自信与良好的价值观。",
-        "hero_highlight": "在这里，孩子们不只是学习—他们正在茁壮成长。",
+        "hero_title_span": "孩子的成长,从家庭开始",
+        "hero_desc": "德暄儿童培育班不只是儿童课程，<br>而是<strong>一个陪伴家庭共同成长的平台。</strong><br><br>我们深信，<br>真正能影响孩子一生的，<br>不是短暂的技巧，而是稳定的品格与价值观。",
         "btn_learn_more": "了解课程",
         "btn_enrol_now": "联系我们",
         "btn_register": "立即报名",
 
         // Pillars Section
         "pillars_title": "让孩子，在品格中成长",
-        "pillars_subtitle": "在自律中建立自信，在陪伴中找到方向。<br><br><strong>💞 课程的三大核心价值</strong>",
+        "pillars_subtitle": "<strong>在自律中建立自信，在陪伴中找到方向。</strong><br><br>德暄儿童培育班是一个以品格教育为核心的儿童成长课程。<br>我们透过互动体验、故事引导与生活实践，<br>陪伴 7–12 岁孩子建立自律、自信与良好的价值观<br><br>",
+        "pillars_highlight": "在这里，孩子们不只是学习——他们正在茁壮成长。<br><br>",
+        "pillars_title_sub": "💞 课程的三大核心价值",
         "pillar_1_title": "品格教育为本",
         "pillar_1_desc": "培养诚实、责任、尊重与感恩的价值观。",
         "pillar_2_title": "生活能力与情绪管理",
@@ -402,7 +404,7 @@ const translations = {
 
         // Footer
         "footer_p": "以品格教育为核心，透过互动体验与生活实践，培养自律、自信与良好价值观的儿童成长课程。",
-        "footer_copy": "© 2026 德暄儿童培育班。版权所有。",
+        "footer_copy": "© 2026 德暄品格學堂。版权所有。",
 
         // Gallery Page
         "gallery_tagline": "📸 记录学习、成长与家庭连结的精彩时刻。",

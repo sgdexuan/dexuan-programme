@@ -20,17 +20,17 @@ const translations = {
         "nav_register": "Enrol Now",
 
         // Hero Section
-        "hero_tagline": "🌟 More than a class. A journey of growth for both child and family.",
         "hero_title_1": "We Believe Growth",
+        "hero_title_2": "Growing Through Character",
         "hero_title_span": "Begins at Home",
         "hero_desc": "Dexuan Children’s Development Programme is more than just a class. <br>It is <strong>a platform that supports families in growing together.</strong> <br><br>We believe that what truly shapes a child’s future is not temporary skills, but stable character and strong values.",
+        "hero_desc_2": "<strong>Building Confidence Through Discipline,<br>Finding Direction Through Guidance.</strong>",
         "btn_learn_more": "Learn More",
         "btn_enrol_now": "Contact Us",
         "btn_register": "Enrol Now",
 
         // Pillars Section
-        "pillars_title": "Growing Through Character",
-        "pillars_subtitle": "<strong>Building Confidence Through Discipline, <br>Finding Direction Through Guidance.</strong><br><br>Dexuan Children’s Development Programme is a character-based enrichment programme designed for children aged 7–12. <br>Through interactive activities, storytelling, and practical life applications, we nurture self-discipline, confidence, and positive values.<br><br>",
+        "pillars_subtitle": "Dexuan Children’s Development Programme is a character-based enrichment programme designed for children aged 7–12. <br>Through interactive activities, storytelling, and practical life applications, we nurture self-discipline, confidence, and positive values.<br><br>",
         "pillars_highlight": "Here, children are not just learning — they are growing.<br><br>",
         "pillars_title_sub": "💞 Our Three Core Pillars",
         "pillar_1_title": "Character Development",
@@ -49,8 +49,8 @@ const translations = {
 
         // Why Us Section
         "why_us_title": "⭐ Why Choose Us?",
-        "why_us_subtitle": "Character is a lifelong asset.",
-        "why_us_lead": "In today’s fast-paced world, children face not only academic pressure, but also challenges in emotional regulation, interpersonal relationships, and self-management. <br>We believe that what accompanies a child for life is not grades — <strong>but character.<br><br>Dexuan Children’s Development Programme focuses on:</strong>",
+        "why_us_subtitle": "<strong>Character is a lifelong asset.</strong>",
+        "why_us_lead": "In today’s fast-paced world, children face not only academic pressure, but also challenges in emotional regulation, interpersonal relationships, and self-management. <br>We believe that what accompanies a child for life is not grades — but character.<strong><br><br>Dexuan Children’s Development Programme focuses on:</strong>",
         "feature_1": "Personal responsibility & self-discipline",
         "feature_2": "Character and value formation",
         "feature_3": "Emotional management & positive thinking",
@@ -60,8 +60,8 @@ const translations = {
 
         // Approach Section
         "approach_title": "🌟 Our Learning Approach",
-        "approach_subtitle": "Not instruction — but experience.",
-        "approach_p": "We adopt an experiential learning approach rather than one-way teaching. <strong>Children learn through participation and grow through practice — building confidence and developing responsibility.</strong>",
+        "approach_subtitle": "<strong>Not instruction — but experience.</strong>",
+        "approach_p": "<strong>Children learn through participation and grow through practice — building confidence and developing responsibility.</strong>We adopt an experiential learning approach rather than one-way teaching.",
         "approach_list_1": "Story-based learning and guided reflection",
         "approach_list_2": "Interactive activities and team challenges",
         "approach_list_3": "Practical life applications",
@@ -71,7 +71,7 @@ const translations = {
 
         // Testimonials
         "testimonials_title": "💬 Parents’ Reflections",
-        "testimonials_subtitle": "Real stories from our community.",
+        "testimonials_subtitle": "<strong>Hear from our parents — real stories and voices from our community.</strong>",
         "t_1_content": "\"I was especially impressed by the DIY activity, where children interacted with their parents and learned gratitude in a practical way.\"",
         "t_1_author": "- Parent A",
         "t_2_content": "\"I noticed my child becoming more confident, better at communication, and more focused.\"",
@@ -117,7 +117,6 @@ const translations = {
         "pill_3": "✨ Confidence and communication building",
         "pill_4": "✨ Positive habit formation",
         "pill_5": "✨ Parent engagement and transparency",
-        "btn_view_about": "View About Us",
 
         // About Us
         "about_section_title": "About Us",
@@ -139,9 +138,9 @@ const translations = {
 
         "about_philosophy_title": "Our Core Philosophy",
         "about_philosophy_p": "Built upon three foundations:",
-        "phil_li_1": "Character Development",
-        "phil_li_2": "Life Skills & Emotional Growth",
-        "phil_li_3": "Immersive Chinese Language Environment",
+        "phil_li_1": "• Character Development",
+        "phil_li_2": "• Life Skills & Emotional Growth",
+        "phil_li_3": "• Immersive Chinese Language Environment",
 
         "about_vision_title": "Our Vision",
         "about_vision_p1": "We aspire to create a safe, structured, and purposeful learning environment <strong>where children gain confidence and families find shared values.</strong>",
@@ -188,9 +187,8 @@ const translations = {
         "gallery_tagline": "📸 Moments of learning, growth, and family connection.",
         "gallery_title": "Gallery",
         "gallery_subtitle": "A glimpse into our sessions and activities.",
-        "gallery_btn_view": "View Gallery",
+        "gallery_btn_home": "Return Home",
         "gallery_section_title": "Our Gallery",
-        "gallery_section_subtitle": "Add 5-8 images here to showcase your programme.",
 
         // Home - Gallery Preview
         "home_gallery_title": "📸 Gallery - Dexuan Programme",
@@ -252,17 +250,17 @@ const translations = {
         "nav_register": "立即报名",
 
         // Hero Section
-        "hero_tagline": "🌟 在這裡，改變的不只是孩子，還有整個家庭的方向。",
         "hero_title_1": "我们相信",
+        "hero_title_2": "通过品格成长",
         "hero_title_span": "孩子的成长,从家庭开始",
         "hero_desc": "德暄儿童培育班不只是儿童课程，<br>而是<strong>一个陪伴家庭共同成长的平台。</strong><br><br>我们深信，<br>真正能影响孩子一生的，<br>不是短暂的技巧，而是稳定的品格与价值观。",
+        "hero_desc_2": "<strong>在自律中建立自信，<br>在陪伴中找到方向。</strong>",
         "btn_learn_more": "了解课程",
         "btn_enrol_now": "联系我们",
         "btn_register": "立即报名",
 
         // Pillars Section
-        "pillars_title": "让孩子，在品格中成长",
-        "pillars_subtitle": "<strong>在自律中建立自信，在陪伴中找到方向。</strong><br><br>德暄儿童培育班是一个以品格教育为核心的儿童成长课程。<br>我们透过互动体验、故事引导与生活实践，<br>陪伴 7–12 岁孩子建立自律、自信与良好的价值观<br><br>",
+        "pillars_subtitle": "德暄儿童培育班是一个以品格教育为核心的儿童成长课程。<br>我们透过互动体验、故事引导与生活实践，<br>陪伴 7–12 岁孩子建立自律、自信与良好的价值观。<br><br>",
         "pillars_highlight": "在这里，孩子们不只是学习——他们正在茁壮成长。<br><br>",
         "pillars_title_sub": "💞 课程的三大核心价值",
         "pillar_1_title": "品格教育为本",
@@ -281,7 +279,7 @@ const translations = {
 
         // Why Us Section
         "why_us_title": "⭐ 为什么选择我们？",
-        "why_us_subtitle": "品格，是孩子一生最重要的资产。",
+        "why_us_subtitle": "<strong>品格，是孩子一生最重要的资产。</strong>",
         "why_us_lead": "在节奏快速的时代，孩子面对的不只是学业压力，还有情绪管理、人际互动与自我管理的挑战。<br>我们相信，真正能陪伴孩子一生的不是分数—<strong>而是品格。<br><br>德暄儿童培育班专注于：</strong>",
         "feature_1": "生活自理与自律建立",
         "feature_2": "品格与责任感培养",
@@ -292,8 +290,8 @@ const translations = {
 
         // Approach Section
         "approach_title": "🌟 我们的教学方式",
-        "approach_subtitle": "不是说教，而是体验。",
-        "approach_p": "我们不采用单向说教，而是透过「体验式学习」让孩子自然吸收。<strong>让孩子在参与中学习，在实践中成长。建立自信，培养责任感。</strong>",
+        "approach_subtitle": "<strong>不是说教，而是体验。</strong>",
+        "approach_p": "<strong>让孩子在参与中学习，在实践中成长。建立自信，培养责任感。</strong>我们不采用单向说教，而是透过「体验式学习」让孩子自然吸收。",
         "approach_list_1": "故事启发与情境引导",
         "approach_list_2": "互动活动与团队任务",
         "approach_list_3": "生活实践挑战",
@@ -302,8 +300,8 @@ const translations = {
         "glass_p": "我们致力于提供一个安全、稳定与有方向的学习环境，陪伴孩子在成长的关键时期，建立稳固的品格基础。",
 
         // Testimonials
-        "testimonials_title": "💬 家长真实反馈",
-        "testimonials_subtitle": "来自我们社群的真实声音。",
+        "testimonials_title": "💬 家长的信任与肯定",
+        "testimonials_subtitle": "<strong>家长真实反馈，来自我们社群的真实声音。</strong>",
         "t_1_content": "“我对手作活动DIY 特别有印象，尤其是借着手作活动中让孩子与父母互动，学习感恩父母的教育，学以致用。”",
         "t_1_author": "- 家长A",
         "t_2_content": "“发现我的孩子变得有自信、学习到怎么和人沟通交流、更有专注力。”",
@@ -319,7 +317,7 @@ const translations = {
         "info_date_strong": "2026年4月5日 开课",
         "info_date_span": "每月第一个星期日",
         "info_time_strong": "下午 2:00 – 4:30 PM",
-        "info_time_span": "（实际日期将另行通知）",
+        "info_time_span": "（个别月份将作适当调整。）",
         "info_age_strong": "适合年龄",
         "info_age_span": "7至12岁儿童",
         "info_fam_strong": "家庭参与",
@@ -349,7 +347,6 @@ const translations = {
         "pill_3": "✨ 建立自信与表达能力",
         "pill_4": "✨ 培养良好生活与品格习惯",
         "pill_5": "✨ 家长可了解孩子学习内容与成长",
-        "btn_view_about": "查看关于我们",
 
         // About Us
         "about_section_title": "关于我们",
@@ -369,7 +366,7 @@ const translations = {
         "about_believe_p1": "德暄儿童培育班以道德教育与品格培养为核心，透过生活实践与互动体验，帮助孩子建立正确的是非观与责任感。",
         "about_believe_p2": "<strong>我们相信，稳定的价值观与良好的品格，是孩子未来面对世界的重要基础。</strong>",
 
-        "about_philosophy_title": "核心理念",
+        "about_philosophy_title": "我们的核心理念",
         "about_philosophy_p": "我们以三大核心为基础：",
         "phil_li_1": "🔹 品格教育<br>培养诚信、责任、尊重与感恩。",
         "phil_li_2": "🔹 生活能力与情绪管理<br>帮助孩子建立自律、自信与稳定情绪。",
@@ -420,12 +417,11 @@ const translations = {
         "gallery_tagline": "📸 记录学习、成长与家庭连结的精彩时刻。",
         "gallery_title": "相册",
         "gallery_subtitle": "带你看看我们的课程与活动片段。",
-        "gallery_btn_view": "查看相册",
+        "gallery_btn_home": "返回首页",
         "gallery_section_title": "课程相册",
-        "gallery_section_subtitle": "可在这里放入 5–8 张图片来展示课程活动。",
 
         // Home - Gallery Preview
-        "home_gallery_title": "📸 课程相册 – 德暄课程",
+        "home_gallery_title": "📸 课程相册 - 德暄课程",
         "home_gallery_subtitle": "精选课程活动与亲子互动的精彩片段。",
         "home_gallery_btn": "查看相册",
 
@@ -470,3 +466,4 @@ const translations = {
         "gal_desc_19": "风景照片 (12)"
     }
 };
+

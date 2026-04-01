@@ -5,9 +5,34 @@
 =============================================== 
 */
 
-let currentLang = localStorage.getItem('dexuanLang') || 'en';
-let langToggleBtn = null;
-let announcementText = null;
+const STORAGE_KEYS = {
+    language: 'dexuanLang',
+    returnSection: 'dexuanReturnSection'
+};
+
+const NAV_SCROLL_OFFSET = 100;
+
+const ANNOUNCEMENT_MESSAGES = {
+    en: [
+        '🌟 More than a class. A journey of growth for both child and family.',
+        '🌟 A place where children are transformed, and family values are strengthened.',
+        '🌟 Building character. Strengthening families.',
+        '🌟 A place where children grow in character, and families grow together.'
+    ],
+    zh: [
+        '🌟 在這裡，改變的不只是孩子，還有整個家庭的方向。',
+        '🌟 一個真正改變孩子，也凝聚家庭價值的地方。',
+        '🌟 以品格為根基，成就孩子一生的改變。',
+        '🌟 讓孩子的改變，從家庭開始。'
+    ]
+};
+
+const siteState = {
+    currentLang: localStorage.getItem(STORAGE_KEYS.language) || 'en',
+    langToggleBtn: null,
+    announcementText: null,
+    toastTimer: null
+};
 
 document.addEventListener('DOMContentLoaded', () => {
     initializeSite();
@@ -16,16 +41,19 @@ document.addEventListener('DOMContentLoaded', () => {
 async function initializeSite() {
     await loadSharedLayout();
 
-    setupLanguage();
-    setupAnnouncement();
-    setupNavbar();
-    setupMobileMenu();
-    setupRevealAnimations();
-    setupSmoothScrolling();
-    setupAboutTabs();
-    setupGalleryLightbox();
-    setupContactForm();
-    setupWhatsAppWidget();
+    [
+        setupLanguage,
+        setupAnnouncement,
+        setupGalleryReturnFlow,
+        setupNavbar,
+        setupMobileMenu,
+        setupRevealAnimations,
+        setupSmoothScrolling,
+        setupAboutTabs,
+        setupGalleryLightbox,
+        setupContactForm,
+        setupWhatsAppWidget
+    ].forEach(setup => setup());
 
     window.dispatchEvent(new Event('scroll'));
 }
@@ -120,32 +148,21 @@ async function getSharedLayoutHtml() {
 }
 
 function setupLanguage() {
-    langToggleBtn = document.getElementById('langToggleBtn');
+    siteState.langToggleBtn = document.getElementById('langToggleBtn');
 
-    function updateLanguage() {
-        document.querySelectorAll('[data-translate]').forEach(el => {
-            const key = el.getAttribute('data-translate');
-            if (translations[currentLang] && translations[currentLang][key]) {
-                el.innerHTML = translations[currentLang][key];
-            }
-        });
+    const updateLanguage = () => {
+        applyTranslations(siteState.currentLang);
+        applyPlaceholders(siteState.currentLang);
 
-        document.querySelectorAll('[data-placeholder-translate]').forEach(el => {
-            const key = el.getAttribute('data-placeholder-translate');
-            if (translations[currentLang] && translations[currentLang][key]) {
-                el.placeholder = translations[currentLang][key];
-            }
-        });
-
-        if (langToggleBtn) {
-            langToggleBtn.textContent = currentLang === 'en' ? '中文' : 'ENG';
+        if (siteState.langToggleBtn) {
+            siteState.langToggleBtn.textContent = siteState.currentLang === 'en' ? '中文' : 'ENG';
         }
-    }
+    };
 
-    if (langToggleBtn) {
-        langToggleBtn.addEventListener('click', () => {
-            currentLang = currentLang === 'en' ? 'zh' : 'en';
-            localStorage.setItem('dexuanLang', currentLang);
+    if (siteState.langToggleBtn) {
+        siteState.langToggleBtn.addEventListener('click', () => {
+            siteState.currentLang = siteState.currentLang === 'en' ? 'zh' : 'en';
+            localStorage.setItem(STORAGE_KEYS.language, siteState.currentLang);
             updateLanguage();
             updateAnnouncement();
         });
@@ -154,31 +171,60 @@ function setupLanguage() {
     updateLanguage();
 }
 
+function setupGalleryReturnFlow() {
+    if (document.body.dataset.page === 'index') {
+        document.querySelectorAll('a[href="gallery.html"]').forEach(link => {
+            link.addEventListener('click', storeCurrentSectionForGalleryReturn);
+        });
+    }
+
+    if (document.body.dataset.page === 'gallery') {
+        setupGalleryReturnButton();
+    }
+}
+
+function storeCurrentSectionForGalleryReturn() {
+    const currentSectionId = getCurrentSectionId();
+    sessionStorage.setItem(STORAGE_KEYS.returnSection, currentSectionId);
+}
+
+function getCurrentSectionId() {
+    const sections = Array.from(document.querySelectorAll('header[id], section[id]'));
+    const scrollPosition = window.scrollY + NAV_SCROLL_OFFSET;
+    let activeSectionId = 'home';
+
+    sections.forEach(section => {
+        if (section.offsetTop <= scrollPosition + 1) {
+            activeSectionId = section.id;
+        }
+    });
+
+    return activeSectionId;
+}
+
+function setupGalleryReturnButton() {
+    const returnButton = document.querySelector('[data-gallery-return-home]');
+
+    if (!returnButton) {
+        return;
+    }
+
+    const returnSectionId = sessionStorage.getItem(STORAGE_KEYS.returnSection) || 'home';
+    returnButton.setAttribute('href', `index.html#${returnSectionId}`);
+}
+
 function setupAnnouncement() {
-    announcementText = document.getElementById('announcement-text');
+    siteState.announcementText = document.getElementById('announcement-text');
     updateAnnouncement();
 }
 
 function updateAnnouncement() {
-    if (!announcementText) {
+    if (!siteState.announcementText) {
         return;
     }
 
-    const messagesEn = [
-        '🌟 More than a class. A journey of growth for both child and family.',
-        '🌟 A place where children are transformed, and family values are strengthened.',
-        '🌟 Building character. Strengthening families.',
-        '🌟 A place where children grow in character, and families grow together.'
-    ];
-    const messagesZh = [
-        '🌟 在這裡，改變的不只是孩子，還有整個家庭的方向。',
-        '🌟 一個真正改變孩子，也凝聚家庭價值的地方。',
-        '🌟 以品格為根基，成就孩子一生的改變。',
-        '🌟 讓孩子的改變，從家庭開始。'
-    ];
-
-    const messages = currentLang === 'en' ? messagesEn : messagesZh;
-    announcementText.innerHTML = messages.join(' &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; ');
+    const messages = ANNOUNCEMENT_MESSAGES[siteState.currentLang] || ANNOUNCEMENT_MESSAGES.en;
+    siteState.announcementText.innerHTML = messages.join(' &nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp; ');
 }
 
 function setupNavbar() {
@@ -192,10 +238,8 @@ function setupNavbar() {
 
         if (window.scrollY > 50) {
             navbar.classList.add('scrolled');
-            navbar.style.boxShadow = '0 4px 15px rgba(0,0,0,0.1)';
         } else {
             navbar.classList.remove('scrolled');
-            navbar.style.boxShadow = '0 2px 10px rgba(0,0,0,0.05)';
         }
 
         if (navLinks && navLinks.classList.contains('active')) {
@@ -207,6 +251,11 @@ function setupNavbar() {
 function setupMobileMenu() {
     const mobileBtn = document.querySelector('.mobile-menu-btn');
     const navLinks = document.querySelector('.nav-links');
+    const closeMobileMenu = () => {
+        if (navLinks) {
+            navLinks.classList.remove('active');
+        }
+    };
 
     if (mobileBtn && navLinks) {
         mobileBtn.addEventListener('click', () => {
@@ -215,11 +264,7 @@ function setupMobileMenu() {
     }
 
     document.querySelectorAll('.nav-links a').forEach(item => {
-        item.addEventListener('click', () => {
-            if (navLinks) {
-                navLinks.classList.remove('active');
-            }
-        });
+        item.addEventListener('click', closeMobileMenu);
     });
 }
 
@@ -286,7 +331,7 @@ function setupSmoothScrolling() {
 
             const targetElement = document.querySelector(targetId);
             if (targetElement) {
-                const headerOffset = 100;
+                const headerOffset = NAV_SCROLL_OFFSET;
                 const elementPosition = targetElement.getBoundingClientRect().top;
                 const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
 
@@ -381,13 +426,13 @@ function setupContactForm() {
 
             contactForm.reset();
             showFormToast(
-                translations[currentLang]?.form_submit_success || 'Thank you. Your enquiry has been sent successfully.',
+                getTranslation('form_submit_success', 'Thank you. Your enquiry has been sent successfully.'),
                 'success'
             );
         } catch (error) {
             console.error(error);
             showFormToast(
-                translations[currentLang]?.form_submit_error || 'Sorry, we could not send your enquiry right now. Please try again later.',
+                getTranslation('form_submit_error', 'Sorry, we could not send your enquiry right now. Please try again later.'),
                 'error'
             );
         }
@@ -432,8 +477,8 @@ function showFormToast(message, tone = 'success') {
         closeBtn.addEventListener('click', dismissToast);
     }
 
-    window.clearTimeout(showFormToast.hideTimer);
-    showFormToast.hideTimer = window.setTimeout(dismissToast, 4200);
+    window.clearTimeout(siteState.toastTimer);
+    siteState.toastTimer = window.setTimeout(dismissToast, 4200);
 }
 
 function setupWhatsAppWidget() {
@@ -444,17 +489,19 @@ function setupWhatsAppWidget() {
     const contactSection = document.getElementById('contact');
 
     if (waFloatingBtn && waPopup && waCloseBtn) {
+        const closeWaPopup = () => {
+            waPopup.classList.remove('show');
+        };
+
         waFloatingBtn.addEventListener('click', () => {
             waPopup.classList.toggle('show');
         });
 
-        waCloseBtn.addEventListener('click', () => {
-            waPopup.classList.remove('show');
-        });
+        waCloseBtn.addEventListener('click', closeWaPopup);
 
         document.addEventListener('click', e => {
             if (!waPopup.contains(e.target) && !waFloatingBtn.contains(e.target)) {
-                waPopup.classList.remove('show');
+                closeWaPopup();
             }
         });
     }
@@ -478,6 +525,32 @@ function setupWhatsAppWidget() {
             waWidget.classList.add('wa-visible');
         }
     }
+}
+
+function getTranslation(key, fallback = '') {
+    return translations[siteState.currentLang]?.[key] || fallback;
+}
+
+function applyTranslations(language) {
+    document.querySelectorAll('[data-translate]').forEach(element => {
+        const key = element.getAttribute('data-translate');
+        const translation = translations[language]?.[key];
+
+        if (translation) {
+            element.innerHTML = translation;
+        }
+    });
+}
+
+function applyPlaceholders(language) {
+    document.querySelectorAll('[data-placeholder-translate]').forEach(element => {
+        const key = element.getAttribute('data-placeholder-translate');
+        const translation = translations[language]?.[key];
+
+        if (translation) {
+            element.placeholder = translation;
+        }
+    });
 }
 
 function normalizeGalleryHeaderLinks() {

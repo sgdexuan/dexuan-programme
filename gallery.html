@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700&display=swap"
         rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -25,17 +25,16 @@
 
     <header class="page-hero page-hero-gallery">
         <div class="container hero-content reveal fade-bottom">
-            <div class="tagline" data-translate="gallery_tagline" style="color: var(--white);">📸 Moments of learning,
+            <div class="tagline page-hero-tagline" data-translate="gallery_tagline">📸 Moments of learning,
                 growth, and family connection.
             </div>
-            <h1 class="page-title" data-translate="gallery_title" style="color: var(--secondary);">Gallery</h1>
-            <p class="page-subtitle" data-translate="gallery_subtitle" style="color: #ffffffe6;">
+            <h1 class="page-title page-hero-title" data-translate="gallery_title">Gallery</h1>
+            <p class="page-subtitle page-hero-subtitle" data-translate="gallery_subtitle">
                 A glimpse into our sessions and activities.
             </p>
             <div class="hero-buttons">
-                <a href="#gallery" class="btn btn-outline-light" data-translate="gallery_btn_view">View Gallery</a>
-                <a href="index.html#contact" class="btn btn-primary" data-translate="btn_enrol_now"
-                    style="background-color: var(--secondary); color: var(--text-dark); border: none; box-shadow: 0 4px 15px rgba(230, 179, 37, 0.4);">Contact
+                <a href="index.html#home" class="btn btn-outline-light" data-translate="gallery_btn_home" data-gallery-return-home>Return Home</a>
+                <a href="index.html#contact" class="btn btn-accent" data-translate="btn_enrol_now">Contact
                     Us</a>
             </div>
         </div>
@@ -50,8 +49,8 @@
             <div class="gallery-grid">
 
                 <figure class="gallery-card reveal fade-bottom">
-                    <img src="assets/gallery/img1.JPG" style="aspect-ratio: 4/3; background: #eaecf0;" alt="Landscape 1"
-                        loading="lazy">
+                    <img src="assets/gallery/img1.JPG" class="gallery-media gallery-media--landscape"
+                        alt="Landscape 1" loading="lazy">
                     <figcaption class="gallery-caption">
                         <h4 data-translate="gal_title_1">Emotional Awareness</h4>
                         <p data-translate="gal_desc_1">Landscape Photo (1)</p>
@@ -59,8 +58,8 @@
                 </figure>
 
                 <figure class="gallery-card reveal fade-bottom delay-1">
-                    <img src="assets/gallery/img2.JPG" style="aspect-ratio: 3/4; background: #f2f4f7;" alt="Portrait 1"
-                        loading="lazy">
+                    <img src="assets/gallery/img2.JPG" class="gallery-media gallery-media--portrait"
+                        alt="Portrait 1" loading="lazy">
                     <figcaption class="gallery-caption">
                         <h4 data-translate="gal_title_2">Class Engagement</h4>
                         <p data-translate="gal_desc_2">Portrait Photo (1)</p>
@@ -68,8 +67,8 @@
                 </figure>
 
                 <figure class="gallery-card reveal fade-bottom delay-2">
-                    <img src="assets/gallery/img3.jpg" style="aspect-ratio: 4/3; background: #e0e5ea;" alt="Landscape 2"
-                        loading="lazy">
+                    <img src="assets/gallery/img3.jpg" class="gallery-media gallery-media--landscape"
+                        alt="Landscape 2" loading="lazy">
                     <figcaption class="gallery-caption">
                         <h4 data-translate="gal_title_3">Hand On Learning</h4>
                         <p data-translate="gal_desc_3">Landscape Photo (2)</p>
@@ -77,7 +76,7 @@
                 </figure>
 
                 <figure class="gallery-card reveal fade-bottom">
-                    <img src="assets/gallery/img_potrait1.jpg" style="aspect-ratio: 3/4; background: #f2f4f7;"
+                    <img src="assets/gallery/img_potrait1.jpg" class="gallery-media gallery-media--portrait"
                         alt="Portrait 2" loading="lazy">
                     <figcaption class="gallery-caption">
                         <h4 data-translate="gal_title_4">Active Writing</h4>
@@ -86,7 +85,7 @@
                 </figure>
 
                 <figure class="gallery-card reveal fade-bottom delay-1">
-                    <img src="assets/gallery/img_potrait2.jpg" style="aspect-ratio: 4/3; background: #eaecf0;"
+                    <img src="assets/gallery/img_potrait2.jpg" class="gallery-media gallery-media--landscape"
                         alt="Landscape 3" loading="lazy">
                     <figcaption class="gallery-caption">
                         <h4 data-translate="gal_title_5">Individual Guidance</h4>
@@ -95,7 +94,7 @@
                 </figure>
 
                 <figure class="gallery-card reveal fade-bottom delay-2">
-                    <img src="assets/gallery/img4.jpg" style="aspect-ratio: 4/3; background: #f2f4f7;" alt="Landscape 4"
+                    <img src="assets/gallery/img4.jpg" class="gallery-media gallery-media--landscape" alt="Landscape 4"
                         loading="lazy">
                     <figcaption class="gallery-caption">
                         <h4 data-translate="gal_title_6">Focused Learning</h4>
@@ -104,7 +103,7 @@
                 </figure>
 
                 <figure class="gallery-card reveal fade-bottom">
-                    <img src="assets/gallery/img_potrait3.jpg" style="aspect-ratio: 3/4; background: #e0e5ea;"
+                    <img src="assets/gallery/img_potrait3.jpg" class="gallery-media gallery-media--portrait"
                         alt="Portrait 3" loading="lazy">
                     <figcaption class="gallery-caption">
                         <h4 data-translate="gal_title_7">Creative Activity</h4>
@@ -113,7 +112,7 @@
                 </figure>
 
                 <figure class="gallery-card reveal fade-bottom delay-1">
-                    <img src="assets/gallery/img5.jpg" style="aspect-ratio: 4/3; background: #eaecf0;" alt="Landscape 5"
+                    <img src="assets/gallery/img5.jpg" class="gallery-media gallery-media--landscape" alt="Landscape 5"
                         loading="lazy">
                     <figcaption class="gallery-caption">
                         <h4 data-translate="gal_title_8">Hand On Craft</h4>
@@ -122,7 +121,7 @@
                 </figure>
 
                 <figure class="gallery-card reveal fade-bottom delay-2">
-                    <img src="assets/gallery/img_potrait4.jpg" style="aspect-ratio: 3/4; background: #f2f4f7;"
+                    <img src="assets/gallery/img_potrait4.jpg" class="gallery-media gallery-media--portrait"
                         alt="Portrait 4" loading="lazy">
                     <figcaption class="gallery-caption">
                         <h4 data-translate="gal_title_9">Creative Writing</h4>
@@ -131,7 +130,7 @@
                 </figure>
 
                 <figure class="gallery-card reveal fade-bottom">
-                    <img src="assets/gallery/img6.jpg" style="aspect-ratio: 4/3; background: #e0e5ea;" alt="Landscape 6"
+                    <img src="assets/gallery/img6.jpg" class="gallery-media gallery-media--landscape" alt="Landscape 6"
                         loading="lazy">
                     <figcaption class="gallery-caption">
                         <h4 data-translate="gal_title_10">Food Activity</h4>
@@ -140,7 +139,7 @@
                 </figure>
 
                 <figure class="gallery-card reveal fade-bottom delay-1">
-                    <img src="assets/gallery/img7.jpg" style="aspect-ratio: 4/3; background: #eaecf0;" alt="Landscape 7"
+                    <img src="assets/gallery/img7.jpg" class="gallery-media gallery-media--landscape" alt="Landscape 7"
                         loading="lazy">
                     <figcaption class="gallery-caption">
                         <h4 data-translate="gal_title_11">Hand On Activity</h4>
@@ -149,7 +148,7 @@
                 </figure>
 
                 <figure class="gallery-card reveal fade-bottom delay-2">
-                    <img src="assets/gallery/img_potrait5.jpg" style="aspect-ratio: 3/4; background: #f2f4f7;"
+                    <img src="assets/gallery/img_potrait5.jpg" class="gallery-media gallery-media--portrait"
                         alt="Portrait 5" loading="lazy">
                     <figcaption class="gallery-caption">
                         <h4 data-translate="gal_title_12">Learning Practice</h4>
@@ -158,7 +157,7 @@
                 </figure>
 
                 <figure class="gallery-card reveal fade-bottom">
-                    <img src="assets/gallery/img8.jpg" style="aspect-ratio: 4/3; background: #e0e5ea;" alt="Landscape 8"
+                    <img src="assets/gallery/img8.jpg" class="gallery-media gallery-media--landscape" alt="Landscape 8"
                         loading="lazy">
                     <figcaption class="gallery-caption">
                         <h4 data-translate="gal_title_13">Family Activity</h4>
@@ -167,7 +166,7 @@
                 </figure>
 
                 <figure class="gallery-card reveal fade-bottom delay-1">
-                    <img src="assets/gallery/im9.jpg" style="aspect-ratio: 4/3; background: #eaecf0;" alt="Landscape 9"
+                    <img src="assets/gallery/im9.jpg" class="gallery-media gallery-media--landscape" alt="Landscape 9"
                         loading="lazy">
                     <figcaption class="gallery-caption">
                         <h4 data-translate="gal_title_14">Happy Moments</h4>
@@ -176,7 +175,7 @@
                 </figure>
 
                 <figure class="gallery-card reveal fade-bottom delay-2">
-                    <img src="assets/gallery/img_potrait6.jpg" style="aspect-ratio: 3/4; background: #f2f4f7;"
+                    <img src="assets/gallery/img_potrait6.jpg" class="gallery-media gallery-media--portrait"
                         alt="Portrait 6" loading="lazy">
                     <figcaption class="gallery-caption">
                         <h4 data-translate="gal_title_15">Joyful Moments</h4>
@@ -185,7 +184,7 @@
                 </figure>
 
                 <figure class="gallery-card reveal fade-bottom">
-                    <img src="assets/gallery/img10.jpg " style="aspect-ratio: 4/3; background: #e0e5ea;"
+                    <img src="assets/gallery/img10.jpg " class="gallery-media gallery-media--landscape"
                         alt="Landscape 10" loading="lazy">
                     <figcaption class="gallery-caption">
                         <h4 data-translate="gal_title_16">Happy Bond</h4>
@@ -194,7 +193,7 @@
                 </figure>
 
                 <figure class="gallery-card reveal fade-bottom delay-1">
-                    <img src="assets/gallery/img_potrait7.jpg" style="aspect-ratio: 3/4; background: #eaecf0;"
+                    <img src="assets/gallery/img_potrait7.jpg" class="gallery-media gallery-media--portrait"
                         alt="Portrait 7" loading="lazy">
                     <figcaption class="gallery-caption">
                         <h4 data-translate="gal_title_17">Guided Cooking</h4>
@@ -203,7 +202,7 @@
                 </figure>
 
                 <figure class="gallery-card reveal fade-bottom delay-2">
-                    <img src="assets/gallery/img11.jpg" style="aspect-ratio: 4/3; background: #f2f4f7;"
+                    <img src="assets/gallery/img11.jpg" class="gallery-media gallery-media--landscape"
                         alt="Landscape 11" loading="lazy">
                     <figcaption class="gallery-caption">
                         <h4 data-translate="gal_title_18">Creative Expression</h4>
@@ -212,7 +211,7 @@
                 </figure>
 
                 <figure class="gallery-card reveal fade-bottom">
-                    <img src="assets/gallery/img12.jpg" style="aspect-ratio: 4/3; background: #eaecf0;"
+                    <img src="assets/gallery/img12.jpg" class="gallery-media gallery-media--landscape"
                         alt="Landscape 12" loading="lazy">
                     <figcaption class="gallery-caption">
                         <h4 data-translate="gal_title_19">Happy Students</h4>

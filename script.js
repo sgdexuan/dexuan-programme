@@ -122,8 +122,14 @@ async function getSharedLayoutHtml() {
                 <a href="#contact" class="btn btn-outline btn-sm" data-translate="nav_enrol">Contact Us</a>
                 <a href="https://forms.gle/Ft4GAnRMrwTL34HM6" target="_blank" class="btn btn-primary btn-sm" data-translate="nav_register">Enrol Now</a>
             </div>
-            <div class="nav-right-controls" style="display: flex; align-items: center; gap: 15px;">
-                <button id="langToggleBtn" class="lang-btn">中文</button>
+            <div class="nav-right-controls">
+                <button id="langToggleBtn" class="lang-switch" type="button" aria-label="Switch language" aria-checked="false" role="switch">
+                    <span class="lang-switch__track" aria-hidden="true">
+                        <span class="lang-switch__label lang-switch__label--zh">中文</span>
+                        <span class="lang-switch__label lang-switch__label--en">ENG</span>
+                        <span class="lang-switch__thumb"></span>
+                    </span>
+                </button>
                 <div class="mobile-menu-btn">
                     <i class="fa-solid fa-bars"></i>
                 </div>
@@ -155,7 +161,8 @@ function setupLanguage() {
         applyPlaceholders(siteState.currentLang);
 
         if (siteState.langToggleBtn) {
-            siteState.langToggleBtn.textContent = siteState.currentLang === 'en' ? '中文' : 'ENG';
+            siteState.langToggleBtn.dataset.lang = siteState.currentLang;
+            siteState.langToggleBtn.setAttribute('aria-checked', siteState.currentLang === 'en' ? 'true' : 'false');
         }
     };
 

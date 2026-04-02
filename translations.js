@@ -165,7 +165,7 @@ const translations = {
 
         // Contact
         "contact_title": "Join Our Community",
-        "contact_p": "Contact us to enrol or to request the full programme brochure.",
+        "contact_p": "Feel free to contact us for registration or more information.",
         "wa_header_title": "Start a Conversation",
         "wa_header_desc": "Hi! Click one of our members below to chat on WhatsApp ;)",
         "wa_reply_time": "The team typically replies in a few minutes.",
@@ -191,59 +191,40 @@ const translations = {
         // Gallery Page
         "gallery_tagline": "📸 Moments of learning, growth, and family connection.",
         "gallery_title": "Gallery",
-        "gallery_subtitle": "A glimpse into our sessions and activities.",
+        "gallery_subtitle": "Children’s Learning Moments.",
         "gallery_btn_home": "Return Home",
         "gallery_section_title": "Our Gallery",
 
         // Home - Gallery Preview
-        "home_gallery_title": "📸 Gallery - Dexuan Programme",
-        "home_gallery_subtitle": "Highlights from our sessions, activities, and family moments.",
+        "home_gallery_title": "📸 Learning Gallery",
+        "home_gallery_subtitle": "Where children learn, grow, and shine. ✨",
         "home_gallery_btn": "View Gallery",
 
         // Gallery Captions
         "gal_title_1": "Emotional Awareness",
-        "gal_desc_1": "Landscape Photo (1)",
         "gal_title_2": "Class Engagement",
-        "gal_desc_2": "Portrait Photo (1)",
         "gal_title_3": "Hand On Learning",
-        "gal_desc_3": "Landscape Photo (2)",
         "gal_title_4": "Active Writing",
-        "gal_desc_4": "Portrait Photo (2)",
         "gal_title_5": "Individual Guidance",
-        "gal_desc_5": "Landscape Photo (3)",
         "gal_title_6": "Focused Learning",
-        "gal_desc_6": "Landscape Photo (4)",
         "gal_title_7": "Creative Activity",
-        "gal_desc_7": "Portrait Photo (3)",
         "gal_title_8": "Hand On Craft",
-        "gal_desc_8": "Landscape Photo (5)",
         "gal_title_9": "Creative Writing",
-        "gal_desc_9": "Portrait Photo (4)",
         "gal_title_10": "Food Activity",
-        "gal_desc_10": "Landscape Photo (6)",
         "gal_title_11": "Hand On Activity",
-        "gal_desc_11": "Landscape Photo (7)",
         "gal_title_12": "Learning Practice",
-        "gal_desc_12": "Portrait Photo (5)",
         "gal_title_13": "Family Activity",
-        "gal_desc_13": "Landscape Photo (8)",
         "gal_title_14": "Happy Moments",
-        "gal_desc_14": "Landscape Photo (9)",
         "gal_title_15": "Joyful Moments",
-        "gal_desc_15": "Portrait Photo (6)",
         "gal_title_16": "Happy Bond",
-        "gal_desc_16": "Landscape Photo (10)",
         "gal_title_17": "Guided Cooking",
-        "gal_desc_17": "Portrait Photo (7)",
         "gal_title_18": "Creative Expression",
-        "gal_desc_18": "Landscape Photo (11)",
-        "gal_title_19": "Happy Students",
-        "gal_desc_19": "Landscape Photo (12)"
+        "gal_title_19": "Happy Students"
     },
 
     "zh": {
         // Logo
-        "logo_text": "德暄<br><small>品格学堂</small>",
+        "logo_text": "<span class=\"logo-cn-main\">德暄</span> <span class=\"logo-cn-sub\">品格学堂</span>",
 
         // Navigation
         "nav_home": "首页",
@@ -257,9 +238,9 @@ const translations = {
         // Hero Section
         "hero_title_1": "我们相信",
         "hero_title_2": "让孩子，在品格中成长",
-        "hero_title_span": "孩子的成长，<br>从家庭开始",
+        "hero_title_span": "孩子的成长，从家庭开始",
         "hero_desc": "德暄儿童培育班不只是儿童课程，<br>而是<strong>一个陪伴家庭共同成长的平台。</strong><br><br>我们深信，<br>真正能影响孩子一生的，<br>不是短暂的技巧，而是稳定的品格与价值观。",
-        "hero_desc_2": "<strong>在自律中建立自信，<br>在陪伴中找到方向。</strong>",
+        "hero_desc_2": "<strong>在自律中建立自信，在陪伴中找到方向。</strong>",
         "btn_learn_more": "了解课程",
         "btn_enrol_now": "联系我们",
         "btn_register": "立即报名",
@@ -400,7 +381,7 @@ const translations = {
 
         // Contact
         "contact_title": "加入我们的社群",
-        "contact_p": "请联系我们以报名或索取完整的课程手册。",
+        "contact_p": "请联系我们以报名或了解详情。",
         "wa_header_title": "开始对话",
         "wa_header_desc": "您好！点击下方任意成员即可通过 WhatsApp 交流 ;)",
         "wa_reply_time": "团队通常会在几分钟内回复。",
@@ -426,54 +407,35 @@ const translations = {
         // Gallery Page
         "gallery_tagline": "📸 记录学习、成长与家庭连结的精彩时刻。",
         "gallery_title": "相册",
-        "gallery_subtitle": "带你看看我们的课程与活动片段。",
+        "gallery_subtitle": "孩子们的学习时光。",
         "gallery_btn_home": "返回首页",
         "gallery_section_title": "课程相册",
 
         // Home - Gallery Preview
-        "home_gallery_title": "📸 课程相册 - 德暄课程",
-        "home_gallery_subtitle": "精选课程活动与亲子互动的精彩片段。",
+        "home_gallery_title": "📸 学习纪实",
+        "home_gallery_subtitle": "孩子在这里学习、成长、绽放光彩。✨",
         "home_gallery_btn": "查看相册",
 
         // Gallery Captions
         "gal_title_1": "情绪感知",
-        "gal_desc_1": "风景照片 (1)",
         "gal_title_2": "课堂投入",
-        "gal_desc_2": "人像照片 (1)",
         "gal_title_3": "实践学习",
-        "gal_desc_3": "风景照片 (2)",
         "gal_title_4": "主动书写",
-        "gal_desc_4": "人像照片 (2)",
         "gal_title_5": "个别指导",
-        "gal_desc_5": "风景照片 (3)",
         "gal_title_6": "专注学习",
-        "gal_desc_6": "风景照片 (4)",
         "gal_title_7": "创意活动",
-        "gal_desc_7": "人像照片 (3)",
         "gal_title_8": "手工制作",
-        "gal_desc_8": "风景照片 (5)",
         "gal_title_9": "创意写作",
-        "gal_desc_9": "人像照片 (4)",
         "gal_title_10": "美食活动",
-        "gal_desc_10": "风景照片 (6)",
         "gal_title_11": "实践活动",
-        "gal_desc_11": "风景照片 (7)",
         "gal_title_12": "学习实践",
-        "gal_desc_12": "人像照片 (5)",
         "gal_title_13": "家庭活动",
-        "gal_desc_13": "风景照片 (8)",
         "gal_title_14": "欢乐时刻",
-        "gal_desc_14": "风景照片 (9)",
         "gal_title_15": "喜悦时刻",
-        "gal_desc_15": "人像照片 (6)",
         "gal_title_16": "亲密纽带",
-        "gal_desc_16": "风景照片 (10)",
         "gal_title_17": "指导烹饪",
-        "gal_desc_17": "人像照片 (7)",
         "gal_title_18": "创意表达",
-        "gal_desc_18": "风景照片 (11)",
-        "gal_title_19": "快乐学生",
-        "gal_desc_19": "风景照片 (12)"
+        "gal_title_19": "快乐学生"
     }
 };
 

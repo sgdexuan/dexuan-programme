@@ -34,7 +34,32 @@ const siteState = {
     toastTimer: null
 };
 
+function isReloadNavigation() {
+    const [navigationEntry] = performance.getEntriesByType('navigation');
+
+    if (navigationEntry && 'type' in navigationEntry && typeof navigationEntry.type === 'string') {
+        return navigationEntry.type === 'reload';
+    }
+
+    return false;
+}
+
+function resetScrollOnReload() {
+    if (!isReloadNavigation()) {
+        return;
+    }
+
+    if ('scrollRestoration' in history) {
+        history.scrollRestoration = 'manual';
+    }
+
+    const scrollToTop = () => window.scrollTo(0, 0);
+    scrollToTop();
+    window.addEventListener('load', scrollToTop, { once: true });
+}
+
 document.addEventListener('DOMContentLoaded', () => {
+    resetScrollOnReload();
     initializeSite();
 });
 
@@ -115,10 +140,10 @@ async function getSharedLayoutHtml() {
             </a>
             <div class="nav-links">
                 <a href="#home" data-translate="nav_home">Home</a>
-                <a href="#about" data-translate="nav_about">About Us</a>
-                <a href="gallery.html" data-translate="nav_gallery">Gallery</a>
                 <a href="#why-choose-us" data-translate="nav_why_us">Why Choose Us</a>
                 <a href="#programme" data-translate="nav_programme">Programme</a>
+                <a href="gallery.html" data-translate="nav_gallery">Gallery</a>
+                <a href="#about" data-translate="nav_about">About Us</a>
                 <a href="#contact" class="btn btn-outline btn-sm" data-translate="nav_enrol">Contact Us</a>
                 <a href="https://forms.gle/Ft4GAnRMrwTL34HM6" target="_blank" class="btn btn-primary btn-sm" data-translate="nav_register">Enrol Now</a>
             </div>

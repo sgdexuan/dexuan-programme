@@ -243,7 +243,7 @@ const translations = {
 
     "zh": {
         // Logo
-        "logo_text": "德暄<br><small>品格學堂</small>",
+        "logo_text": "德暄<br><small>品格学堂</small>",
 
         // Navigation
         "nav_home": "首页",
@@ -301,7 +301,7 @@ const translations = {
         "approach_list_2": "互动活动与团队任务",
         "approach_list_3": "生活实践挑战",
         "approach_list_4": "课后延伸与家长回馈",
-        "glass_quote": "讓孩子的改變，從家庭開始。",
+        "glass_quote": "让孩子的改变，从家庭开始。",
         "glass_p": "我们致力于提供一个安全、稳定与有方向的学习环境，陪伴孩子在成长的关键时期，建立稳固的品格基础。",
 
         // Testimonials
@@ -317,7 +317,7 @@ const translations = {
         "t_4_author": "- 家长D",
 
         // Programme Details
-        "prog_title": "🌱 德暄兒童品格發展課程",
+        "prog_title": "🌱 德暄儿童品格发展课程",
         "prog_title_2": "2026 年课程资讯",
         "prog_subtitle": "我们相信，真正的教育，不只是学习知识，更重要的是培养孩子一生受用的品格与生活能力。<br><br>德暄儿童培育班透过互动活动、故事引导与生活实践，陪伴孩子建立自信、自律与良好品格，让学习在快乐中发生，在生活中落实。",
         "info_date_strong": "2026年4月5日 开课",
@@ -356,7 +356,7 @@ const translations = {
 
         // About Us
         "about_section_title": "关于我们",
-        "nav_foundation": "我們的價值根基",
+        "nav_foundation": "我们的价值根基",
         "nav_beginning": "我们的初心",
         "nav_believe": "我们相信",
         "nav_philosophy": "我们的核心理念",
@@ -364,8 +364,8 @@ const translations = {
         "nav_team": "我们的团队",
         "nav_commitment": "我们的承诺",
 
-        "about_foundation_title": "我們的價值根基",
-        "about_foundation_p": "德暄兒童培育班源自多年對家庭教育與品格培養的關注與實踐。<br><strong>我们相信，稳定的价值观与良好的品格，是孩子未来面对世界的重要基础。</strong>",
+        "about_foundation_title": "我们的价值根基",
+        "about_foundation_p": "德暄儿童培育班源自多年对家庭教育与品格培养的关注与实践。<br><strong>我们相信，稳定的价值观与良好的品格，是孩子未来面对世界的重要基础。</strong>",
 
         "about_beginning_title": "我们的初心",
         "about_beginning_p1": "德暄儿童培育班成立的初心，是希望为孩子提供一个稳定、温暖且有方向的成长平台。",
@@ -421,7 +421,7 @@ const translations = {
 
         // Footer
         "footer_p": "以品格教育为核心，透过互动体验与生活实践，培养自律、自信与良好价值观的儿童成长课程。",
-        "footer_copy": "© 2026 德暄品格學堂。版权所有。",
+        "footer_copy": "© 2026 德暄品格学堂。版权所有。",
 
         // Gallery Page
         "gallery_tagline": "📸 记录学习、成长与家庭连结的精彩时刻。",

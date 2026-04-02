@@ -493,7 +493,6 @@ function setupWhatsAppWidget() {
     const waPopup = document.getElementById('waPopup');
     const waCloseBtn = document.getElementById('waCloseBtn');
     const waWidget = document.querySelector('.wa-floating-widget');
-    const contactSection = document.getElementById('contact');
 
     if (waFloatingBtn && waPopup && waCloseBtn) {
         const closeWaPopup = () => {
@@ -514,22 +513,9 @@ function setupWhatsAppWidget() {
     }
 
     if (waWidget) {
-        if (contactSection) {
-            window.addEventListener('scroll', () => {
-                const contactTop = contactSection.getBoundingClientRect().top;
-                const windowHeight = window.innerHeight;
-
-                if (contactTop <= windowHeight + 100) {
-                    waWidget.classList.add('wa-visible');
-                } else {
-                    waWidget.classList.remove('wa-visible');
-                    if (waPopup) {
-                        waPopup.classList.remove('show');
-                    }
-                }
-            });
-        } else {
-            waWidget.classList.add('wa-visible');
+        waWidget.classList.add('wa-visible');
+        if (waPopup) {
+            waPopup.classList.remove('show');
         }
     }
 }

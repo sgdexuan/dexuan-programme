@@ -836,6 +836,31 @@ nav.scrolled {
     margin: 15px auto 0;
 }
 
+.section-title-2 {
+    font-family: var(--display-font);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-light);
+    position: relative;
+    display: inline-block;
+    margin-top: 12px;
+    padding-bottom: 12px;
+    letter-spacing: 0.01em;
+}
+
+.section-title-2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 54px;
+    height: 5px;
+    background: linear-gradient(90deg, var(--accent-sky) 0%, var(--secondary) 100%);
+    border-radius: 999px;
+    opacity: 0.9;
+}
+
 /* Pillars Section */
 .pillars-grid {
     display: grid;
@@ -1973,6 +1998,7 @@ footer p {
     .hero-title,
     .page-title,
     .section-title,
+    .section-title-2,
     .section-subtitle,
     .hero-desc,
     .lead-text,
@@ -2119,6 +2145,12 @@ footer p {
         font-size: 2rem;
     }
 
+    .section-title-2 {
+        font-size: 1.35rem;
+        margin-top: 10px;
+        padding-bottom: 10px;
+    }
+
     .hero-buttons {
         flex-direction: column;
         gap: 15px;
@@ -2150,14 +2182,15 @@ footer p {
 
     /* WhatsApp Widget - Mobile */
     .wa-floating-widget {
-        bottom: 20px;
-        right: 15px;
+        bottom: 24px;
+        right: 20px;
     }
 
     .wa-floating-btn {
-        width: 52px;
-        height: 52px;
-        font-size: 28px;
+        width: 60px;
+        height: 60px;
+        font-size: 32px;
+        box-shadow: 0 8px 24px rgba(56, 214, 105, 0.55);
     }
 
     .wa-popup {
@@ -2278,16 +2311,28 @@ footer p {
         padding: 15px;
     }
 
+    .section-title-2 {
+        font-size: 1.2rem;
+        margin-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    .section-title-2::after {
+        width: 44px;
+        height: 4px;
+    }
+
     /* WhatsApp Widget - Small Mobile */
     .wa-floating-widget {
-        bottom: 15px;
-        right: 10px;
+        bottom: 20px;
+        right: 16px;
     }
 
     .wa-floating-btn {
-        width: 48px;
-        height: 48px;
-        font-size: 26px;
+        width: 56px;
+        height: 56px;
+        font-size: 30px;
+        box-shadow: 0 8px 22px rgba(56, 214, 105, 0.55);
     }
 
     .wa-popup {

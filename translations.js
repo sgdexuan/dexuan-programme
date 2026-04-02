@@ -82,7 +82,8 @@ const translations = {
         "t_4_author": "- Parent D",
 
         // Programme Details
-        "prog_title": "🌱 2026 Annual Programme Overview",
+        "prog_title": "🌱 Dexuan Children’s Development Programme",
+        "prog_title_2": "2026 Annual Programme Overview",
         "prog_subtitle": "True education is not merely the acquisition of knowledge, but the cultivation of lifelong character and life skills.<br><br>Through interactive activities, storytelling, and practical experiences, we nurture confidence, discipline, and positive values — allowing learning to take place joyfully and meaningfully.",
         "info_date_strong": "Starts 5 April 2026",
         "info_date_span": "First Sunday of every month",
@@ -120,12 +121,16 @@ const translations = {
 
         // About Us
         "about_section_title": "About Us",
+        "nav_foundation": "Our Foundation",
         "nav_beginning": "Our Beginning",
         "nav_believe": "What We Believe",
         "nav_philosophy": "Our Core Philosophy",
         "nav_vision": "Our Vision",
         "nav_team": "Our Team",
         "nav_commitment": "Our Commitment",
+
+        "about_foundation_title": "Our Foundation",
+        "about_foundation_p": "Our programme is built upon years of dedication to family values and character development. We believe that strong values form the foundation for lifelong growth.",
 
         "about_beginning_title": "Our Beginning",
         "about_beginning_p1": "Dexuan Children's Development Programme was founded with the intention of providing children with a stable, warm, and purposeful environment for growth.",
@@ -138,9 +143,9 @@ const translations = {
 
         "about_philosophy_title": "Our Core Philosophy",
         "about_philosophy_p": "Built upon three foundations:",
-        "phil_li_1": "• Character Development",
-        "phil_li_2": "• Life Skills & Emotional Growth",
-        "phil_li_3": "• Immersive Chinese Language Environment",
+        "phil_li_1": "<strong>🔹 Character Development</strong>",
+        "phil_li_2": "<strong>🔹 Life Skills & Emotional Growth</strong>",
+        "phil_li_3": "<strong>🔹 Immersive Chinese Language Environment</strong>",
 
         "about_vision_title": "Our Vision",
         "about_vision_p1": "We aspire to create a safe, structured, and purposeful learning environment <strong>where children gain confidence and families find shared values.</strong>",
@@ -251,8 +256,8 @@ const translations = {
 
         // Hero Section
         "hero_title_1": "我们相信",
-        "hero_title_2": "通过品格成长",
-        "hero_title_span": "孩子的成长,从家庭开始",
+        "hero_title_2": "让孩子，在品格中成长",
+        "hero_title_span": "孩子的成长，从家庭开始",
         "hero_desc": "德暄儿童培育班不只是儿童课程，<br>而是<strong>一个陪伴家庭共同成长的平台。</strong><br><br>我们深信，<br>真正能影响孩子一生的，<br>不是短暂的技巧，而是稳定的品格与价值观。",
         "hero_desc_2": "<strong>在自律中建立自信，<br>在陪伴中找到方向。</strong>",
         "btn_learn_more": "了解课程",
@@ -312,7 +317,8 @@ const translations = {
         "t_4_author": "- 家长D",
 
         // Programme Details
-        "prog_title": "🌱 2026 年课程资讯",
+        "prog_title": "🌱 德暄兒童品格發展課程",
+        "prog_title_2": "2026 年课程资讯",
         "prog_subtitle": "我们相信，真正的教育，不只是学习知识，更重要的是培养孩子一生受用的品格与生活能力。<br><br>德暄儿童培育班透过互动活动、故事引导与生活实践，陪伴孩子建立自信、自律与良好品格，让学习在快乐中发生，在生活中落实。",
         "info_date_strong": "2026年4月5日 开课",
         "info_date_span": "每月第一个星期日",
@@ -350,12 +356,16 @@ const translations = {
 
         // About Us
         "about_section_title": "关于我们",
+        "nav_foundation": "我們的價值根基",
         "nav_beginning": "我们的初心",
         "nav_believe": "我们相信",
         "nav_philosophy": "我们的核心理念",
         "nav_vision": "我们的愿景",
         "nav_team": "我们的团队",
         "nav_commitment": "我们的承诺",
+
+        "about_foundation_title": "我們的價值根基",
+        "about_foundation_p": "德暄兒童培育班源自多年對家庭教育與品格培養的關注與實踐。<br><strong>我们相信，稳定的价值观与良好的品格，是孩子未来面对世界的重要基础。</strong>",
 
         "about_beginning_title": "我们的初心",
         "about_beginning_p1": "德暄儿童培育班成立的初心，是希望为孩子提供一个稳定、温暖且有方向的成长平台。",
@@ -368,9 +378,9 @@ const translations = {
 
         "about_philosophy_title": "我们的核心理念",
         "about_philosophy_p": "我们以三大核心为基础：",
-        "phil_li_1": "🔹 品格教育<br>培养诚信、责任、尊重与感恩。",
-        "phil_li_2": "🔹 生活能力与情绪管理<br>帮助孩子建立自律、自信与稳定情绪。",
-        "phil_li_3": "🔹 全中文沉浸式学习环境<br>在自然交流与互动中提升中文表达与文化理解。",
+        "phil_li_1": "<strong>🔹 品格教育</strong><br>培养诚信、责任、尊重与感恩。",
+        "phil_li_2": "<strong>🔹 生活能力与情绪管理</strong><br>帮助孩子建立自律、自信与稳定情绪。",
+        "phil_li_3": "<strong>🔹 全中文沉浸式学习环境</strong><br>在自然交流与互动中提升中文表达与文化理解。",
 
         "about_vision_title": "我们的愿景",
         "about_vision_p1": "我们希望打造一个安全、有秩序且有方向的学习环境，<strong>让孩子在其中找到自信，让家长在其中找到共鸣。</strong>",

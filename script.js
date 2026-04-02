@@ -159,6 +159,7 @@ function setupLanguage() {
     const updateLanguage = () => {
         applyTranslations(siteState.currentLang);
         applyPlaceholders(siteState.currentLang);
+        document.documentElement.lang = siteState.currentLang === 'zh' ? 'zh-Hant' : 'en';
 
         if (siteState.langToggleBtn) {
             siteState.langToggleBtn.dataset.lang = siteState.currentLang;

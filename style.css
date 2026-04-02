@@ -2017,7 +2017,7 @@ footer p {
     .glass-card p {
         white-space: normal;
         word-break: normal;
-        overflow-wrap: anywhere;
+        overflow-wrap: break-word;
         hyphens: auto;
         line-break: strict;
         text-wrap: pretty;

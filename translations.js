@@ -257,7 +257,7 @@ const translations = {
         // Hero Section
         "hero_title_1": "我们相信",
         "hero_title_2": "让孩子，在品格中成长",
-        "hero_title_span": "孩子的成长，从家庭开始",
+        "hero_title_span": "孩子的成长，<br>从家庭开始",
         "hero_desc": "德暄儿童培育班不只是儿童课程，<br>而是<strong>一个陪伴家庭共同成长的平台。</strong><br><br>我们深信，<br>真正能影响孩子一生的，<br>不是短暂的技巧，而是稳定的品格与价值观。",
         "hero_desc_2": "<strong>在自律中建立自信，<br>在陪伴中找到方向。</strong>",
         "btn_learn_more": "了解课程",

@@ -20,10 +20,10 @@ const ANNOUNCEMENT_MESSAGES = {
         '🌟 A place where children grow in character, and families grow together.'
     ],
     zh: [
-        '🌟 在這裡，改變的不只是孩子，還有整個家庭的方向。',
-        '🌟 一個真正改變孩子，也凝聚家庭價值的地方。',
-        '🌟 以品格為根基，成就孩子一生的改變。',
-        '🌟 讓孩子的改變，從家庭開始。'
+        '🌟 在这里，改变的不只是孩子，还有整个家庭的方向。',
+        '🌟 一个真正改变孩子，也凝聚家庭价值的地方。',
+        '🌟 以品格为根基，成就孩子一生的改变。',
+        '🌟 让孩子的改变，从家庭开始。'
     ]
 };
 
@@ -159,7 +159,7 @@ function setupLanguage() {
     const updateLanguage = () => {
         applyTranslations(siteState.currentLang);
         applyPlaceholders(siteState.currentLang);
-        document.documentElement.lang = siteState.currentLang === 'zh' ? 'zh-Hant' : 'en';
+        document.documentElement.lang = siteState.currentLang === 'zh' ? 'zh-Hans' : 'en';
 
         if (siteState.langToggleBtn) {
             siteState.langToggleBtn.dataset.lang = siteState.currentLang;

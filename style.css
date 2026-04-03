@@ -1190,12 +1190,15 @@ body[data-page='gallery'] #gallery .reveal {
     gap: var(--testimonial-gap);
     width: max-content;
     animation: testimonials-loop 42s linear infinite;
+    animation-play-state: running;
     will-change: transform;
 }
 
-.testimonials-marquee:hover .testimonials-marquee__track,
-.testimonials-marquee:focus-within .testimonials-marquee__track {
-    animation-play-state: paused;
+@media (hover: hover) and (pointer: fine) {
+    .testimonials-marquee:hover .testimonials-marquee__track,
+    .testimonials-marquee:focus-within .testimonials-marquee__track {
+        animation-play-state: paused;
+    }
 }
 
 .testimonials-marquee__group {
@@ -1303,19 +1306,6 @@ body[data-page='gallery'] #gallery .reveal {
     color: var(--primary);
 }
 
-.testimonials-action {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-    position: relative;
-    z-index: 3;
-}
-
-.testimonials-action .btn {
-    min-width: 220px;
-    padding: 14px 30px;
-}
-
 @keyframes testimonials-loop {
     from {
         transform: translateX(0);
@@ -1328,7 +1318,7 @@ body[data-page='gallery'] #gallery .reveal {
 
 @media (prefers-reduced-motion: reduce) {
     .testimonials-marquee__track {
-        animation: none;
+        animation-duration: 72s;
     }
 }
 
@@ -1744,28 +1734,65 @@ footer p {
 }
 
 @media (max-width: 1180px) {
+    .nav-container {
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .logo {
+        flex: 1 1 auto;
+        min-width: 0;
+    }
+
+    .nav-right-controls {
+        margin-left: auto;
+    }
+
     .nav-links {
         margin-left: 0;
         margin-right: 0;
-        display: none;
+        display: flex;
         position: absolute;
         top: 100%;
-        left: 50%;
-        width: min(100vw - 24px, 420px);
+        right: 0;
+        left: auto;
+        width: min(92vw, 420px);
         background-color: var(--white);
         flex-direction: column;
         align-items: stretch;
-        padding: 20px;
-        gap: 15px;
-        transform: translateX(-50%);
+        padding: 0 20px;
+        gap: 12px;
+        max-height: 0;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        overflow: hidden;
+        transform: translate(0, -12px) scaleY(0.92);
+        transform-origin: top center;
         box-sizing: border-box;
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
         z-index: 1000;
-        border-radius: 0 0 20px 20px;
+        border-radius: 0 0 22px 22px;
+        border: 1px solid rgba(47, 111, 87, 0.14);
+        transition: max-height 0.34s ease, opacity 0.24s ease, transform 0.34s cubic-bezier(0.22, 1, 0.36, 1), padding 0.34s ease, visibility 0s linear 0.34s;
     }
 
     .nav-links.active {
-        display: flex;
+        max-height: 560px;
+        padding: 18px 20px 20px;
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+        transform: translate(0, 0) scaleY(1);
+        transition: max-height 0.34s ease, opacity 0.24s ease, transform 0.34s cubic-bezier(0.22, 1, 0.36, 1), padding 0.34s ease;
+        animation: navMenuDrop 0.34s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    .nav-links a:not(.btn) {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        padding: 4px 0;
     }
 
     .nav-links .btn {
@@ -2253,30 +2280,80 @@ footer p {
         padding-top: 35px;
     }
 
+    .nav-container {
+        flex-wrap: nowrap;
+        align-items: center;
+        padding: 12px 0;
+    }
+
+    .logo {
+        flex: 1 1 auto;
+        min-width: 0;
+    }
+
+    .logo-img {
+        height: 56px;
+    }
+
+    .logo-text {
+        line-height: 1.05;
+    }
+
+    .nav-right-controls {
+        margin-left: auto;
+        gap: 10px;
+    }
+
     .nav-links {
         margin-left: 0;
         margin-right: 0;
-        display: none;
+        display: flex;
         position: absolute;
         top: 100%;
-        left: 50%;
-        width: 100vw;
+        right: 0;
+        left: auto;
+        width: min(92vw, 420px);
         background-color: var(--white);
         flex-direction: column;
-        padding: 20px;
-        gap: 15px;
-        transform: translateX(-50%);
+        align-items: stretch;
+        padding: 0 20px;
+        gap: 12px;
+        max-height: 0;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        overflow: hidden;
+        border: 1px solid rgba(47, 111, 87, 0.14);
+        border-radius: 0 0 22px 22px;
+        transform: translate(0, -12px) scaleY(0.92);
+        transform-origin: top center;
         box-sizing: border-box;
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
         z-index: 1000;
+        transition: max-height 0.34s ease, opacity 0.24s ease, transform 0.34s cubic-bezier(0.22, 1, 0.36, 1), padding 0.34s ease, visibility 0s linear 0.34s;
     }
 
     .nav-links.active {
-        display: flex;
+        max-height: 560px;
+        padding: 18px 20px 20px;
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+        transform: translate(0, 0) scaleY(1);
+        transition: max-height 0.34s ease, opacity 0.24s ease, transform 0.34s cubic-bezier(0.22, 1, 0.36, 1), padding 0.34s ease;
+        animation: navMenuDrop 0.34s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    .nav-links a:not(.btn) {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        padding: 4px 0;
     }
 
     .nav-links .btn {
-        width: 200px;
+        width: 100%;
+        max-width: 220px;
         align-self: center;
     }
 
@@ -2490,6 +2567,18 @@ footer p {
     }
 }
 
+@keyframes navMenuDrop {
+    from {
+        opacity: 0;
+        transform: translate(0, -14px) scaleY(0.9);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(0, 0) scaleY(1);
+    }
+}
+
 @media (max-width: 480px) {
     .section-padding {
         padding: 40px 0;
@@ -2508,11 +2597,11 @@ footer p {
     }
 
     .logo-text {
-        font-size: 1rem;
+        font-size: 0.95rem;
     }
 
     .logo-img {
-        height: 60px;
+        height: 52px;
     }
 
     .pillar-card {

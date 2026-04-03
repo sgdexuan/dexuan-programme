@@ -199,7 +199,6 @@ const translations = {
         // Home - Gallery Preview
         "testimonials_moment_1": "A beautiful learning moment",
         "testimonials_moment_2": "Beautiful moments together",
-        "testimonials_btn": "View the moment",
         "home_gallery_title": "📸 Learning Gallery",
         "home_gallery_subtitle": "Where children learn, grow, and shine. ✨",
         "home_gallery_btn": "View Gallery",
@@ -448,7 +447,6 @@ const translations = {
         // Home - Gallery Preview
         "testimonials_moment_1": "美好的学习时刻",
         "testimonials_moment_2": "一起留下的美好时光",
-        "testimonials_btn": "查看美好时刻",
         "home_gallery_title": "📸 学习纪实",
         "home_gallery_subtitle": "孩子在这里学习、成长、绽放光彩。✨",
         "home_gallery_btn": "查看相册",

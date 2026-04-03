@@ -186,6 +186,7 @@ const translations = {
 
         // Footer
         "footer_p": "A children's programme centred on character development, helping young learners build self-discipline, confidence, and strong values through meaningful activities and real-life practice.",
+        "footer_privacy": "Privacy Policy",
         "footer_copy": "© 2026 Dexuan Character Academy. All rights reserved.",
 
         // Gallery Page
@@ -219,7 +220,36 @@ const translations = {
         "gal_title_16": "Happy Bond",
         "gal_title_17": "Guided Cooking",
         "gal_title_18": "Creative Expression",
-        "gal_title_19": "Happy Students"
+        "gal_title_19": "Happy Students",
+
+        // Privacy Statement
+        "privacy_page_title": "Privacy Statement - Dexuan Character Academy",
+        "privacy_hero_title": "Privacy Statement",
+        "privacy_hero_tagline": "Dexuan Character Academy",
+        "privacy_section_1_title": "1. Collection of Personal Data",
+        "privacy_section_1_intro": "DeXuan Character Academy (\"we\", \"our\", or \"the Organisation\") may collect the following personal data when you participate in the DeXuan Children Development Programme:",
+        "privacy_section_1_item_1": "Parent/guardian name and contact details",
+        "privacy_section_1_item_2": "Child's name and basic information",
+        "privacy_section_1_item_3": "Photos or videos taken during activities",
+        "privacy_section_2_title": "2. Purpose of Use",
+        "privacy_section_2_intro": "The collected data may be used for the following purposes:",
+        "privacy_section_2_item_1": "Programme administration and communication",
+        "privacy_section_2_item_2": "Activity documentation and internal management",
+        "privacy_section_2_item_3": "Official website display and programme-related publicity (non-commercial)",
+        "privacy_section_3_title": "3. Use and Disclosure",
+        "privacy_section_3_item_1": "We do not sell or use personal data for commercial purposes",
+        "privacy_section_3_item_2": "Data will only be used for purposes related to the programme",
+        "privacy_section_3_item_3": "Sensitive personal data (e.g. identification numbers) will not be disclosed",
+        "privacy_section_4_title": "4. Photos and Videos",
+        "privacy_section_4_p1": "Photos or videos taken during activities may be used for documentation and promotional purposes.",
+        "privacy_section_4_p2": "Such content may be updated, modified, or removed over time.",
+        "privacy_section_5_title": "5. Data Protection",
+        "privacy_section_5_p1": "We take reasonable measures to protect personal data against unauthorized access, use, or disclosure.",
+        "privacy_section_6_title": "6. Consent and Withdrawal",
+        "privacy_section_6_p1": "Personal data will be used based on your consent.",
+        "privacy_section_6_p2": "You may withdraw your consent or request removal of your data at any time, and we will process such requests within a reasonable period.",
+        "privacy_section_7_title": "7. Contact Us",
+        "privacy_section_7_p1": "If you have any questions regarding this Privacy Notice, please contact us."
     },
 
     "zh": {
@@ -402,6 +432,7 @@ const translations = {
 
         // Footer
         "footer_p": "以品格教育为核心，透过互动体验与生活实践，培养自律、自信与良好价值观的儿童成长课程。",
+        "footer_privacy": "隐私政策",
         "footer_copy": "© 2026 德暄品格学堂。版权所有。",
 
         // Gallery Page
@@ -435,7 +466,36 @@ const translations = {
         "gal_title_16": "亲密纽带",
         "gal_title_17": "指导烹饪",
         "gal_title_18": "创意表达",
-        "gal_title_19": "快乐学生"
+        "gal_title_19": "快乐学生",
+
+        // Privacy Statement
+        "privacy_page_title": "隐私声明 - 德暄品格学堂",
+        "privacy_hero_title": "隐私声明",
+        "privacy_hero_tagline": "德暄品格学堂",
+        "privacy_section_1_title": "一、资料收集",
+        "privacy_section_1_intro": "德暄品格学堂（以下简称“本堂”）在您参与德暄儿童发展课程相关活动时，可能收集以下资料：",
+        "privacy_section_1_item_1": "家长/监护人姓名及联络方式",
+        "privacy_section_1_item_2": "孩子姓名及基本资料",
+        "privacy_section_1_item_3": "课堂活动照片或影像",
+        "privacy_section_2_title": "二、资料用途",
+        "privacy_section_2_intro": "所收集之资料将用于以下用途：",
+        "privacy_section_2_item_1": "课程安排与联络沟通",
+        "privacy_section_2_item_2": "活动记录与内部管理",
+        "privacy_section_2_item_3": "官方网站及课程相关宣传（非商业用途）",
+        "privacy_section_3_title": "三、资料使用与披露",
+        "privacy_section_3_item_1": "本堂不会将您的个人资料出售或用于商业用途",
+        "privacy_section_3_item_2": "仅在必要情况下用于课程相关之展示或分享（如官方网站）",
+        "privacy_section_3_item_3": "不会公开敏感个人资料（如身份证号码等）",
+        "privacy_section_4_title": "四、照片与影像使用",
+        "privacy_section_4_p1": "课堂活动中拍摄之照片或影片，可能用于课程记录及推广用途。",
+        "privacy_section_4_p2": "相关内容可能随着时间进行更新、调整或删除。",
+        "privacy_section_5_title": "五、资料保护",
+        "privacy_section_5_p1": "本堂将采取合理措施保护所收集之个人资料，防止未经授权的存取、使用或披露。",
+        "privacy_section_6_title": "六、同意与撤回",
+        "privacy_section_6_p1": "您所提供的资料将依据您的同意进行使用。",
+        "privacy_section_6_p2": "您可随时联络本堂撤回同意或要求删除相关资料，我们将在合理时间内处理。",
+        "privacy_section_7_title": "七、联络方式",
+        "privacy_section_7_p1": "如您对本隐私声明或资料使用有任何疑问，请与我们联系。"
     }
 };
 

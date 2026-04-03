@@ -28,7 +28,7 @@ const ANNOUNCEMENT_MESSAGES = {
 };
 
 const siteState = {
-    currentLang: localStorage.getItem(STORAGE_KEYS.language) || 'en',
+    currentLang: localStorage.getItem(STORAGE_KEYS.language) || 'zh',
     langToggleBtn: null,
     announcementText: null,
     toastTimer: null
@@ -105,7 +105,7 @@ async function loadSharedLayout() {
             footerSlot.replaceWith(sharedFooter);
         }
 
-        if (document.body.dataset.page === 'gallery') {
+        if (document.body.dataset.page !== 'index') {
             normalizeGalleryHeaderLinks();
         }
     } catch (error) {

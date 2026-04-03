@@ -191,7 +191,7 @@ const translations = {
 
         // Gallery Page
         "gallery_tagline": "📸 Moments of learning, growth, and family connection.",
-        "gallery_title": "Gallery",
+        "gallery_title": "Learning Gallery",
         "gallery_subtitle": "Children’s Learning Moments.",
         "gallery_btn_home": "Return Home",
         "gallery_section_title": "Our Gallery",
@@ -437,7 +437,7 @@ const translations = {
 
         // Gallery Page
         "gallery_tagline": "📸 记录学习、成长与家庭连结的精彩时刻。",
-        "gallery_title": "相册",
+        "gallery_title": "学习纪实",
         "gallery_subtitle": "孩子们的学习时光。",
         "gallery_btn_home": "返回首页",
         "gallery_section_title": "课程相册",

@@ -8,7 +8,7 @@
 const translations = {
     "en": {
         // Logo
-        "logo_text": "DeXuan<br><small>Character Learning Hub</small>",
+        "logo_text": "DEXUAN<br><small>Character Learning Hub</small>",
 
         // Navigation
         "nav_home": "Home",
@@ -187,7 +187,7 @@ const translations = {
         // Footer
         "footer_p": "A children's programme centred on character development, helping young learners build self-discipline, confidence, and strong values through meaningful activities and real-life practice.",
         "footer_privacy": "Privacy Policy",
-        "footer_copy": "© 2026 DeXuan Character Learning Hub. All rights reserved.",
+        "footer_copy": "© 2026 DEXUAN Character Learning Hub. All rights reserved.",
 
         // Gallery Page
         "gallery_tagline": "📸 Moments of learning, growth, and family connection.",
@@ -225,11 +225,11 @@ const translations = {
         "gal_title_19": "Happy Students",
 
         // Privacy Statement
-        "privacy_page_title": "Privacy Statement - DeXuan Character Learning Hub",
+        "privacy_page_title": "Privacy Statement - DEXUAN Character Learning Hub",
         "privacy_hero_title": "Privacy Statement",
-        "privacy_hero_tagline": "DeXuan Character Learning Hub",
+        "privacy_hero_tagline": "DEXUAN Character Learning Hub",
         "privacy_section_1_title": "1. Collection of Personal Data",
-        "privacy_section_1_intro": "DeXuan Character Learning Hub (\"we\", \"our\", or \"the Organisation\") may collect the following personal data when you participate in the DeXuan Children Development Programme:",
+        "privacy_section_1_intro": "DEXUAN Character Learning Hub (\"we\", \"our\", or \"the Organisation\") may collect the following personal data when you participate in the DEXUAN Children Development Programme:",
         "privacy_section_1_item_1": "Parent/guardian name and contact details",
         "privacy_section_1_item_2": "Child's name and basic information",
         "privacy_section_1_item_3": "Photos or videos taken during activities",

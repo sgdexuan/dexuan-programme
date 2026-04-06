@@ -1389,6 +1389,8 @@ body[data-page='gallery'] #gallery .reveal {
     padding: 30px;
     border-radius: 28px;
     position: relative;
+    display: flex;
+    flex-direction: column;
     overflow: hidden;
     box-shadow: var(--shadow);
     transition: all var(--transition-speed) ease;
@@ -1430,6 +1432,28 @@ body[data-page='gallery'] #gallery .reveal {
 .theme-card h4 {
     font-size: 1.2rem;
     margin-bottom: 10px;
+}
+
+.theme-meta {
+    display: flex;
+    flex-wrap: wrap;
+    order: 3;
+    gap: 8px;
+    margin-top: auto;
+    padding-top: 14px;
+}
+
+.theme-chip {
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    color: var(--primary);
+    background: rgba(255, 255, 255, 0.85);
+    border: 1px solid rgba(62, 115, 67, 0.18);
 }
 
 .theme-card p {
